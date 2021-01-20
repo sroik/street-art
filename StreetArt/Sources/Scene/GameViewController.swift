@@ -22,6 +22,7 @@ final class GameViewController: BaseViewController {
         
         view.addSubview(mainImageView)
         mainImageView.image = level.mainImage
+        mainImageView.contentMode = .scaleAspectFit
         mainImageView.snp.makeConstraints { make in
             let ratio = mainImageView.image?.size.ratio ?? 1
             make.width.top.centerX.equalToSuperview()

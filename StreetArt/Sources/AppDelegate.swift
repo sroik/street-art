@@ -32,6 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     private func routeToNextLevel() {
         guard let next = levels.first else {
             levels = Level.all()
+            routeToNextLevel()
             return
         }
         
