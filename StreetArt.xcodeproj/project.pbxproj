@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ACE12B5125B87153001DA124 /* Alert in Frameworks */ = {isa = PBXBuildFile; productRef = ACE12B5025B87153001DA124 /* Alert */; };
-		ACE12B5225B87153001DA124 /* Alert in Embed Frameworks */ = {isa = PBXBuildFile; productRef = ACE12B5025B87153001DA124 /* Alert */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		ACE12B5425B87153001DA124 /* UtilsCore in Frameworks */ = {isa = PBXBuildFile; productRef = ACE12B5325B87153001DA124 /* UtilsCore */; };
-		ACE12B5525B87153001DA124 /* UtilsCore in Embed Frameworks */ = {isa = PBXBuildFile; productRef = ACE12B5325B87153001DA124 /* UtilsCore */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		AC7AFAA425B87978008E5859 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7AFAA325B87978008E5859 /* Level.swift */; };
+		ACE12B5125B87153001DA124 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = ACE12B5025B87153001DA124 /* SwiftPackageProductDependency */; };
+		ACE12B5225B87153001DA124 /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; productRef = ACE12B5025B87153001DA124 /* SwiftPackageProductDependency */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		ACE12B5425B87153001DA124 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = ACE12B5325B87153001DA124 /* SwiftPackageProductDependency */; };
+		ACE12B5525B87153001DA124 /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; productRef = ACE12B5325B87153001DA124 /* SwiftPackageProductDependency */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		ACE12B8625B8773D001DA124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE12B8525B8773D001DA124 /* LaunchScreen.storyboard */; };
 		ACE12B8825B87797001DA124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE12B8725B87797001DA124 /* Assets.xcassets */; };
 		ACE12B9C25B877B7001DA124 /* General.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACE12B8A25B877B7001DA124 /* General.strings */; };
@@ -19,7 +20,9 @@
 		ACE12BA525B8780F001DA124 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE12BA225B8780F001DA124 /* BaseViewController.swift */; };
 		ACE12BA625B8780F001DA124 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE12BA325B8780F001DA124 /* ContainerViewController.swift */; };
 		ACE12BA725B8780F001DA124 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE12BA425B8780F001DA124 /* BaseNavigationController.swift */; };
+		ACE12BAA25B87916001DA124 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE12BA925B87916001DA124 /* GameViewController.swift */; };
 		ACE503CB25B86BED00FD516C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE503CA25B86BED00FD516C /* AppDelegate.swift */; };
+		F751B1845C1C7BB07FDFC3C6 /* Pods_StreetArt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD3F0CC3301E5AB1543FED6 /* Pods_StreetArt.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +32,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				ACE12B5225B87153001DA124 /* Alert in Embed Frameworks */,
-				ACE12B5525B87153001DA124 /* UtilsCore in Embed Frameworks */,
+				ACE12B5225B87153001DA124 /* BuildFile in Embed Frameworks */,
+				ACE12B5525B87153001DA124 /* BuildFile in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,6 +41,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1E6AFA217483BD7747048930 /* Pods-StreetArt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetArt.debug.xcconfig"; path = "Target Support Files/Pods-StreetArt/Pods-StreetArt.debug.xcconfig"; sourceTree = "<group>"; };
+		3C8C8F0F4680085651B8E715 /* Pods-StreetArt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetArt.release.xcconfig"; path = "Target Support Files/Pods-StreetArt/Pods-StreetArt.release.xcconfig"; sourceTree = "<group>"; };
+		3FD3F0CC3301E5AB1543FED6 /* Pods_StreetArt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreetArt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7AFAA325B87978008E5859 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 		ACE12B8525B8773D001DA124 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACE12B8725B87797001DA124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACE12B8B25B877B7001DA124 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/General.strings; sourceTree = "<group>"; };
@@ -59,6 +66,7 @@
 		ACE12BA225B8780F001DA124 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		ACE12BA325B8780F001DA124 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		ACE12BA425B8780F001DA124 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		ACE12BA925B87916001DA124 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		ACE503C725B86BED00FD516C /* StreetArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE503CA25B86BED00FD516C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACE503D825B86BEF00FD516C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,14 +77,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACE12B5125B87153001DA124 /* Alert in Frameworks */,
-				ACE12B5425B87153001DA124 /* UtilsCore in Frameworks */,
+				ACE12B5125B87153001DA124 /* BuildFile in Frameworks */,
+				ACE12B5425B87153001DA124 /* BuildFile in Frameworks */,
+				F751B1845C1C7BB07FDFC3C6 /* Pods_StreetArt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14B36333E7F848507BDB8B9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E6AFA217483BD7747048930 /* Pods-StreetArt.debug.xcconfig */,
+				3C8C8F0F4680085651B8E715 /* Pods-StreetArt.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6F19AC01223FA5E205D5F8CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FD3F0CC3301E5AB1543FED6 /* Pods_StreetArt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ACE12B8025B876E6001DA124 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +117,7 @@
 		ACE12B8325B87718001DA124 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				ACE12BA825B8790E001DA124 /* Scene */,
 				ACE12B9F25B87801001DA124 /* Common */,
 				ACE503CA25B86BED00FD516C /* AppDelegate.swift */,
 			);
@@ -148,11 +176,22 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		ACE12BA825B8790E001DA124 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				ACE12BA925B87916001DA124 /* GameViewController.swift */,
+				AC7AFAA325B87978008E5859 /* Level.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
 		ACE503BE25B86BEC00FD516C = {
 			isa = PBXGroup;
 			children = (
 				ACE503C925B86BED00FD516C /* StreetArt */,
 				ACE503C825B86BED00FD516C /* Products */,
+				14B36333E7F848507BDB8B9A /* Pods */,
+				6F19AC01223FA5E205D5F8CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,10 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACE503DB25B86BEF00FD516C /* Build configuration list for PBXNativeTarget "StreetArt" */;
 			buildPhases = (
+				DAC769365FB619C40FEDE040 /* [CP] Check Pods Manifest.lock */,
 				ACE503C325B86BED00FD516C /* Sources */,
 				ACE503C425B86BED00FD516C /* Frameworks */,
 				ACE503C525B86BED00FD516C /* Resources */,
 				ACE12B5625B87154001DA124 /* Embed Frameworks */,
+				EC78A41284301477AC55DAEC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,8 +233,8 @@
 			);
 			name = StreetArt;
 			packageProductDependencies = (
-				ACE12B5025B87153001DA124 /* Alert */,
-				ACE12B5325B87153001DA124 /* UtilsCore */,
+				ACE12B5025B87153001DA124 /* SwiftPackageProductDependency */,
+				ACE12B5325B87153001DA124 /* SwiftPackageProductDependency */,
 			);
 			productName = StreetArt;
 			productReference = ACE503C725B86BED00FD516C /* StreetArt.app */;
@@ -236,7 +277,7 @@
 			);
 			mainGroup = ACE503BE25B86BEC00FD516C;
 			packageReferences = (
-				ACE12B4F25B87153001DA124 /* XCRemoteSwiftPackageReference "utils" */,
+				ACE12B4F25B87153001DA124 /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = ACE503C825B86BED00FD516C /* Products */;
 			projectDirPath = "";
@@ -260,16 +301,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DAC769365FB619C40FEDE040 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StreetArt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC78A41284301477AC55DAEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StreetArt/Pods-StreetArt-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StreetArt/Pods-StreetArt-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StreetArt/Pods-StreetArt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ACE503C325B86BED00FD516C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE12BAA25B87916001DA124 /* GameViewController.swift in Sources */,
 				ACE12B9D25B877B7001DA124 /* Strings.swift in Sources */,
 				ACE12BA525B8780F001DA124 /* BaseViewController.swift in Sources */,
 				ACE12BA725B8780F001DA124 /* BaseNavigationController.swift in Sources */,
 				ACE12BA625B8780F001DA124 /* ContainerViewController.swift in Sources */,
 				ACE503CB25B86BED00FD516C /* AppDelegate.swift in Sources */,
+				AC7AFAA425B87978008E5859 /* Level.swift in Sources */,
 				ACE12B9E25B877B7001DA124 /* Assets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +504,7 @@
 		};
 		ACE503DC25B86BEF00FD516C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E6AFA217483BD7747048930 /* Pods-StreetArt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -438,6 +524,7 @@
 		};
 		ACE503DD25B86BEF00FD516C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C8C8F0F4680085651B8E715 /* Pods-StreetArt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,7 +566,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		ACE12B4F25B87153001DA124 /* XCRemoteSwiftPackageReference "utils" */ = {
+		ACE12B4F25B87153001DA124 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:pocket-ninja/utils.git";
 			requirement = {
@@ -490,14 +577,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		ACE12B5025B87153001DA124 /* Alert */ = {
+		ACE12B5025B87153001DA124 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = ACE12B4F25B87153001DA124 /* XCRemoteSwiftPackageReference "utils" */;
+			package = ACE12B4F25B87153001DA124 /* RemoteSwiftPackageReference */;
 			productName = Alert;
 		};
-		ACE12B5325B87153001DA124 /* UtilsCore */ = {
+		ACE12B5325B87153001DA124 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = ACE12B4F25B87153001DA124 /* XCRemoteSwiftPackageReference "utils" */;
+			package = ACE12B4F25B87153001DA124 /* RemoteSwiftPackageReference */;
 			productName = UtilsCore;
 		};
 /* End XCSwiftPackageProductDependency section */
