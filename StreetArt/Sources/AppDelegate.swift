@@ -17,10 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             return false
         }
 
-        let windowFrame = CGRect(x: 0, y: 0, width: 9, height: 16)
-            .fitted(in: UIScreen.main.bounds)
-        
-        window = UIWindow(frame: windowFrame)
+        window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = BaseViewController()
         window?.makeKeyAndVisible()
 

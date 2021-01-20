@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AC7AFAA425B87978008E5859 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7AFAA325B87978008E5859 /* Level.swift */; };
-		ACE12B5125B87153001DA124 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = ACE12B5025B87153001DA124 /* SwiftPackageProductDependency */; };
-		ACE12B5225B87153001DA124 /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; productRef = ACE12B5025B87153001DA124 /* SwiftPackageProductDependency */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		ACE12B5425B87153001DA124 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = ACE12B5325B87153001DA124 /* SwiftPackageProductDependency */; };
-		ACE12B5525B87153001DA124 /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; productRef = ACE12B5325B87153001DA124 /* SwiftPackageProductDependency */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		ACE12B5125B87153001DA124 /* Alert in Frameworks */ = {isa = PBXBuildFile; productRef = ACE12B5025B87153001DA124 /* Alert */; };
+		ACE12B5225B87153001DA124 /* Alert in Embed Frameworks */ = {isa = PBXBuildFile; productRef = ACE12B5025B87153001DA124 /* Alert */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		ACE12B5425B87153001DA124 /* UtilsCore in Frameworks */ = {isa = PBXBuildFile; productRef = ACE12B5325B87153001DA124 /* UtilsCore */; };
+		ACE12B5525B87153001DA124 /* UtilsCore in Embed Frameworks */ = {isa = PBXBuildFile; productRef = ACE12B5325B87153001DA124 /* UtilsCore */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		ACE12B8625B8773D001DA124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE12B8525B8773D001DA124 /* LaunchScreen.storyboard */; };
 		ACE12B8825B87797001DA124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE12B8725B87797001DA124 /* Assets.xcassets */; };
 		ACE12B9C25B877B7001DA124 /* General.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACE12B8A25B877B7001DA124 /* General.strings */; };
@@ -32,8 +32,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				ACE12B5225B87153001DA124 /* BuildFile in Embed Frameworks */,
-				ACE12B5525B87153001DA124 /* BuildFile in Embed Frameworks */,
+				ACE12B5225B87153001DA124 /* Alert in Embed Frameworks */,
+				ACE12B5525B87153001DA124 /* UtilsCore in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,8 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACE12B5125B87153001DA124 /* BuildFile in Frameworks */,
-				ACE12B5425B87153001DA124 /* BuildFile in Frameworks */,
+				ACE12B5125B87153001DA124 /* Alert in Frameworks */,
+				ACE12B5425B87153001DA124 /* UtilsCore in Frameworks */,
 				F751B1845C1C7BB07FDFC3C6 /* Pods_StreetArt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,7 +92,6 @@
 				1E6AFA217483BD7747048930 /* Pods-StreetArt.debug.xcconfig */,
 				3C8C8F0F4680085651B8E715 /* Pods-StreetArt.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -233,8 +232,8 @@
 			);
 			name = StreetArt;
 			packageProductDependencies = (
-				ACE12B5025B87153001DA124 /* SwiftPackageProductDependency */,
-				ACE12B5325B87153001DA124 /* SwiftPackageProductDependency */,
+				ACE12B5025B87153001DA124 /* Alert */,
+				ACE12B5325B87153001DA124 /* UtilsCore */,
 			);
 			productName = StreetArt;
 			productReference = ACE503C725B86BED00FD516C /* StreetArt.app */;
@@ -277,7 +276,7 @@
 			);
 			mainGroup = ACE503BE25B86BEC00FD516C;
 			packageReferences = (
-				ACE12B4F25B87153001DA124 /* RemoteSwiftPackageReference */,
+				ACE12B4F25B87153001DA124 /* XCRemoteSwiftPackageReference "utils" */,
 			);
 			productRefGroup = ACE503C825B86BED00FD516C /* Products */;
 			projectDirPath = "";
@@ -515,7 +514,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pocketninja.StreetArt;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pocketninja.street-art";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -535,7 +534,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pocketninja.StreetArt;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pocketninja.street-art";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -566,7 +565,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		ACE12B4F25B87153001DA124 /* RemoteSwiftPackageReference */ = {
+		ACE12B4F25B87153001DA124 /* XCRemoteSwiftPackageReference "utils" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:pocket-ninja/utils.git";
 			requirement = {
@@ -577,14 +576,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		ACE12B5025B87153001DA124 /* SwiftPackageProductDependency */ = {
+		ACE12B5025B87153001DA124 /* Alert */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = ACE12B4F25B87153001DA124 /* RemoteSwiftPackageReference */;
+			package = ACE12B4F25B87153001DA124 /* XCRemoteSwiftPackageReference "utils" */;
 			productName = Alert;
 		};
-		ACE12B5325B87153001DA124 /* SwiftPackageProductDependency */ = {
+		ACE12B5325B87153001DA124 /* UtilsCore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = ACE12B4F25B87153001DA124 /* RemoteSwiftPackageReference */;
+			package = ACE12B4F25B87153001DA124 /* XCRemoteSwiftPackageReference "utils" */;
 			productName = UtilsCore;
 		};
 /* End XCSwiftPackageProductDependency section */

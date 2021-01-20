@@ -20,7 +20,17 @@ final class GameViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.addSubview(mainImageView)
+        view.backgroundColor = .white
+        
+        view.addSubview(workspace)
+        workspace.snp.makeConstraints { make in
+            let ratio: CGFloat = 9.0 / 16.0
+            make.centerX.centerY.equalToSuperview()
+            make.width.equalToSuperview()
+            make.height.equalTo(workspace.snp.width).dividedBy(ratio)
+        }
+        
+        workspace.addSubview(mainImageView)
         mainImageView.image = level.mainImage
         mainImageView.contentMode = .scaleAspectFit
         mainImageView.snp.makeConstraints { make in
@@ -30,6 +40,7 @@ final class GameViewController: BaseViewController {
         }
     }
     
+    private let workspace = UIView()
     private let mainImageView = UIImageView()
     private let level: Level
 }
