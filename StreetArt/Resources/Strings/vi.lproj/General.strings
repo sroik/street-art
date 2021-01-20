@@ -1,0 +1,266 @@
+"accept" = "Đồng ý";
+
+"add.widgets" = "Add Widgets";
+
+"allow" = "Allow";
+
+"are.you.sure" = "Are you sure?";
+
+"are.you.sure.to.restart" = "Bạn có chắc là bạn muốn khởi động lại không?";
+
+"best.option" = "Best Value";
+
+"camera" = "Máy ảnh";
+
+"cancel" = "Hủy bỏ";
+
+"cancel.anytime" = "Cancel anytime";
+
+"coming.soon" = "Coming Soon";
+
+"compliment.amazing" = "Thật đáng kinh ngạc!";
+
+"compliment.awesome" = "Tuyệt vời!";
+
+"compliment.cool" = "Tuyệt lắm!";
+
+"compliment.fantastic" = "Thật phi thường!";
+
+"compliment.great" = "Tuyệt thật!";
+
+"compliment.wow" = "Ôi chao!";
+
+/* By tapping Continue, you confirm that you acknowledge and accepted our Privacy Policy and Terms Of Use */
+"consent.body" = "By tapping Continue, you confirm that you acknowledge and accepted our %@ and %@.";
+
+/* By tapping Continue, you confirm that you acknowledge and accepted our Privacy Policy and Terms Of Use */
+"consent.body.short" = "By tapping Continue, you confirm that you acknowledge and accepted our %@ and %@.";
+
+"consent.title" = "Welcome!";
+
+"continue" = "Continue";
+
+"data.sharing.consent" = "Đồng ý Chia sẻ Dữ liệu";
+
+"date" = "Date";
+
+"delete" = "Xóa";
+
+"details" = "Chi tiết";
+
+"distance" = "Distance";
+
+"done" = "Đã hoàn tất";
+
+"duration" = "Duration";
+
+"edit" = "Edit";
+
+"every.day" = "Every Day";
+
+"every.month" = "Every Month";
+
+"every.n.seconds" = "Every %@ seconds";
+
+"every.week" = "Every Week";
+
+"every.year" = "Every Year";
+
+"facebook" = "Facebook";
+
+"failed.to.restore.message" = "Khôi phục không thành công";
+
+"failed.to.subscribe.message" = "Đăng ký Không Thành công";
+
+"fb.sharing.error.message" = "Chia sẻ không thành công";
+
+"fb.sharing.error.title" = "Cảnh báo";
+
+"forever" = "Forever";
+
+"forever.for.price" = "Forever for %@";
+
+"free.adjective" = "Miễn phí";
+
+"get.now" = "ẢI";
+
+"get.premium" = "Thử miễn phí";
+
+"get.verb" = "Được";
+
+"get.x" = "Nhận x%@";
+
+"give.notifications.access" = "Please allow access to Notifications.";
+
+"history" = "History";
+
+"imessage" = "iMessage";
+
+"instagram" = "Instagram";
+
+"level.n" = "Cấp độ %@";
+
+"library" = "Library";
+
+"loading" = "Đang tải";
+
+"loading.message" = "Vui lòng chờ, quá trình này có thể mất một lúc.";
+
+"loading.title" = "Vui lòng chờ";
+
+"month" = "Month";
+
+"monthly" = "Hàng tháng";
+
+"months" = "Months";
+
+"more.levels" = "More Levels";
+
+"music" = "âm nhạc";
+
+"my.works" = "My Works";
+
+"n.days.trial" = "Miễn phí %@ ngày";
+
+"n.days.trial.then.price.month" = "%@ days trial, then %@/month";
+
+"n.days.trial.then.price.week" = "%@ days trial, then %@/week";
+
+"n.days.trial.then.price.year" = "%@ days trial, then %@/year";
+
+"n.seconds.short" = "%@ s";
+
+"never" = "Never";
+
+"next" = "Tiếp theo";
+
+"no" = "Không";
+
+"no.camera.access.message" = "Please allow access to Camera";
+
+"no.fb.account.message" = "Bạn cần cài đặt ứng dụng Facebook để chia sẻ";
+
+"no.fb.account.title" = "Không tìm thấy tài khoản Facebook";
+
+"no.internet" = "Vui lòng kiểm tra kết nối internet của bạn và thử lại.";
+
+"no.items.to.restore" = "Xin lỗi, có vẻ như bạn không có bất kỳ đăng ký nào đang kích hoạt";
+
+"no.mic.access.message" = "Please allow access to Microphone";
+
+"no.photo.library.access.import.message" = "Vui lòng cho phép truy cập vào hình ảnh";
+
+"notifications" = "Notifications";
+
+"ok" = "OK";
+
+"one.month.for.price" = "1 month for %@";
+
+"one.week.for.price" = "1 week for %@";
+
+"one.year.for.price" = "1 year for %@";
+
+"oops" = "Rất tiếc...";
+
+"open" = "Mở";
+
+"opt.out" = "Opt-out";
+
+"opt.out.dialog.body" = "You confirmed that you reviewed and accepted our Privacy Policy and Terms of Use. Are you sure that you want to opt-out ? You'll not be able to use this application.";
+
+"or.continue.limited" = "or continue with a limited version";
+
+"other" = "Other";
+
+"popular" = "Popular";
+
+"popup.adfree.message" = "Remove ads forever and enjoy the best gaming experience";
+
+"price.per.month" = "%@/tháng";
+
+"price.per.week" = "%@/week";
+
+"price.per.week.after.trial" = "%@/tuần sau khi kết thúc dùng thử";
+
+"price.per.year" = "%@/year";
+
+"privacy.policy" = "Chính sách Quyền Riêng tư";
+
+"rate.app" = "Đánh giá chúng tôi";
+
+"remove" = "Remove";
+
+"remove.ads" = "Loại bỏ các quảng cáo";
+
+"remove.ads.question" = "Remove Ads?";
+
+"repeat.noun" = "Repeat";
+
+"restart" = "Restart";
+
+"restore" = "Khôi phục";
+
+"restore.purchases" = "Khôi phục các giao dịch mua";
+
+"retry" = "Thử lại";
+
+"rewarded.video.closed" = "Rất tiếc, bạn phải xem đến hết video mới được nhận thưởng.";
+
+"rewarded.video.no.fill" = "Không có video nào khả dụng. Vui lòng thử lại";
+
+"save" = "Lưu";
+
+"save.percent" = "Tiết kiệm %@";
+
+"see.all" = "xem tất cả";
+
+"settings" = "Cài đặt";
+
+"share" = "Chia sẻ";
+
+"sharing.hashtag.message" = "Copy %@ tag to use it in your post";
+
+"skip" = "Bỏ qua";
+
+"something.went.wrong" = "Có vấn đề xảy ra.";
+
+"sounds" = "âm thanh";
+
+"store" = "Cửa hàng";
+
+"subscribe" = "Subscribe";
+
+"subscribe.for" = "subscribe for %@";
+
+"subscription.renew.plan.monthly" = "Gói đăng ký tự động gia hạn hàng tháng";
+
+"subscription.renew.plan.weekly" = "Gói đăng ký tự động gia hạn hàng tuần";
+
+"subscription.renews.monthly" = "Subscription auto-renews at %@ per month";
+
+"support" = "Ủng hộ";
+
+"terms.of.use" = "Điều khoản sử dụng\n";
+
+"time" = "Time";
+
+"try.again" = "Thử lại";
+
+"try.for.free" = "Thử miễn phí";
+
+"try.premium" = "Try Premium";
+
+"unlimited" = "không giới hạn";
+
+"version.description" = "Version %@";
+
+"vibration" = "rung";
+
+"watch" = "Xem";
+
+"week" = "Week";
+
+"weekly" = "Hàng tuần";
+
+"yes" = "Vâng";
+

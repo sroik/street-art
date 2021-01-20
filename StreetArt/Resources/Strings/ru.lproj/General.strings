@@ -1,0 +1,266 @@
+"accept" = "Принять";
+
+"add.widgets" = "Добавляй Виджеты";
+
+"allow" = "Разрешить";
+
+"are.you.sure" = "Вы уверены?";
+
+"are.you.sure.to.restart" = "Вы уверены, что хотите начать заново?";
+
+"best.option" = "Выгодный";
+
+"camera" = "Камера";
+
+"cancel" = "Отменить";
+
+"cancel.anytime" = " Отмени в любой момент";
+
+"coming.soon" = "Скоро будет";
+
+"compliment.amazing" = "Потрясающе!";
+
+"compliment.awesome" = "Замечательно!";
+
+"compliment.cool" = "Круто!";
+
+"compliment.fantastic" = "Превосходно!";
+
+"compliment.great" = "Прекрасно!";
+
+"compliment.wow" = "Вау!";
+
+/* By tapping Continue, you confirm that you acknowledge and accepted our Privacy Policy and Terms Of Use */
+"consent.body" = "Нажимая Продолжить, вы подтверждаете свое согласия с нашими %@ и %@.";
+
+/* By tapping Continue, you confirm that you acknowledge and accepted our Privacy Policy and Terms Of Use */
+"consent.body.short" = "Нажимая Продолжить, вы соглашаетесь с нашими %@ и %@.";
+
+"consent.title" = "Здравствуйте!";
+
+"continue" = "Продолжить";
+
+"data.sharing.consent" = "Согласие на обмен данными";
+
+"date" = "Дата";
+
+"delete" = "Удалить";
+
+"details" = "Подробнее";
+
+"distance" = "Расстояние";
+
+"done" = "Готово";
+
+"duration" = "Длительность";
+
+"edit" = "Редактировать";
+
+"every.day" = "Каждый День";
+
+"every.month" = "Каждый Месяц";
+
+"every.n.seconds" = "Каждые %@ секунд";
+
+"every.week" = "Каждую Неделю";
+
+"every.year" = "Каждый Год";
+
+"facebook" = "Facebook";
+
+"failed.to.restore.message" = "Не удалось восстановить";
+
+"failed.to.subscribe.message" = "Произошла ошибка";
+
+"fb.sharing.error.message" = "Не удалось поделиться";
+
+"fb.sharing.error.title" = "Предупреждение";
+
+"forever" = "Навсегда";
+
+"forever.for.price" = "Навсегда за %@";
+
+"free.adjective" = "Бесплатно";
+
+"get.now" = "СКАЧАТЬ";
+
+"get.premium" = "Премиум";
+
+"get.verb" = "Получить";
+
+"get.x" = "Получить х%@";
+
+"give.notifications.access" = "Пожалуйста, разрешите доступ к уведомлениям.";
+
+"history" = "История";
+
+"imessage" = "iMessage";
+
+"instagram" = "Instagram";
+
+"level.n" = "Уровень %@";
+
+"library" = "Галерея";
+
+"loading" = "Загрузка";
+
+"loading.message" = "Пожалуйста, подождите, это может занять какое-то время.";
+
+"loading.title" = "Пожалуйста, подождите";
+
+"month" = "Месяц";
+
+"monthly" = "Месячный";
+
+"months" = "Месяцев";
+
+"more.levels" = "Больше уровней";
+
+"music" = "Музыка";
+
+"my.works" = "Мои работы";
+
+"n.days.trial" = "%@ дня пробного периода";
+
+"n.days.trial.then.price.month" = "%@ дня бесплатно, после %@/месяц";
+
+"n.days.trial.then.price.week" = "%@ дня бесплатно, после %@/неделя";
+
+"n.days.trial.then.price.year" = "%@ дня бесплатно, после %@/год";
+
+"n.seconds.short" = "%@ с";
+
+"never" = "Никогда";
+
+"next" = "далее";
+
+"no" = "Нет";
+
+"no.camera.access.message" = "Пожалуйста, разрешите доступ к камере";
+
+"no.fb.account.message" = "Чтобы поделиться, вам нужно установить приложение Facebook";
+
+"no.fb.account.title" = "Не найдена учетная запись Facebook";
+
+"no.internet" = "Пожалуйста, проверьте подключение к сети и повторите попытку.";
+
+"no.items.to.restore" = "К сожалению, у вас нет активных покупок";
+
+"no.mic.access.message" = "Пожалуйста, разрешите доступ к микрофону ";
+
+"no.photo.library.access.import.message" = "Пожалуйста, разрешите доступ к фото";
+
+"notifications" = "Уведомления";
+
+"ok" = "ОК";
+
+"one.month.for.price" = "1 месяц за %@";
+
+"one.week.for.price" = "1 неделя за %@";
+
+"one.year.for.price" = "1 год за %@";
+
+"oops" = "Упс...";
+
+"open" = "Открыть";
+
+"opt.out" = "Отказаться";
+
+"opt.out.dialog.body" = "Вы подтвердили, что вы рассмотрели и принимаете наши Политику конфиденциальности и Условия использования. Вы уверены, что хотите отказаться ? Вы не сможете больше использовать приложение.";
+
+"or.continue.limited" = "или переходи в неполную версию";
+
+"other" = "Другое";
+
+"popular" = "Популярный";
+
+"popup.adfree.message" = "Навсегда удали рекламу и наслаждайся лучшим игровым опытом";
+
+"price.per.month" = "%@/месяц";
+
+"price.per.week" = "%@/неделю";
+
+"price.per.week.after.trial" = "%@/неделя после пробного периода";
+
+"price.per.year" = "%@/год";
+
+"privacy.policy" = "Политика конфиденциальности";
+
+"rate.app" = "Оцените Нас";
+
+"remove" = "Убрать";
+
+"remove.ads" = "Убрать Рекламу";
+
+"remove.ads.question" = "Убрать рекламу?";
+
+"repeat.noun" = "Повторение";
+
+"restart" = "Начать заново";
+
+"restore" = "Восстановить";
+
+"restore.purchases" = "Восстановить покупки";
+
+"retry" = "Повторить";
+
+"rewarded.video.closed" = "Извините, необходимо досмотреть видео до конца.";
+
+"rewarded.video.no.fill" = "В очереди нет видео для просмотра, пожалуйста, повторите попытку позже.";
+
+"save" = "Сохранить";
+
+"save.percent" = "Экономия %@";
+
+"see.all" = "Смотреть все";
+
+"settings" = "Настройки";
+
+"share" = "Поделиться";
+
+"sharing.hashtag.message" = "Скопируйте тег %@, чтобы вставить его в пост";
+
+"skip" = "пропустить";
+
+"something.went.wrong" = "Произошла ошибка.";
+
+"sounds" = "Звуки";
+
+"store" = "Магазин";
+
+"subscribe" = "Подписаться";
+
+"subscribe.for" = "Подписаться за %@";
+
+"subscription.renew.plan.monthly" = "План автоматически продлевается ежемесячно";
+
+"subscription.renew.plan.weekly" = "План автоматически продлевается еженедельно";
+
+"subscription.renews.monthly" = "Подписка обновляется за %@ в месяц";
+
+"support" = "Обратная связь";
+
+"terms.of.use" = "Условия использования";
+
+"time" = "Время";
+
+"try.again" = "Повторить";
+
+"try.for.free" = "Попробуй Бесплатно";
+
+"try.premium" = "Попробуй Премиум";
+
+"unlimited" = "безлимит";
+
+"version.description" = "Версия %@";
+
+"vibration" = "Вибрация";
+
+"watch" = "Смотреть";
+
+"week" = "Неделя";
+
+"weekly" = "Недельный";
+
+"yes" = "Да";
+

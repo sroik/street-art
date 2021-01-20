@@ -1,0 +1,266 @@
+"accept" = "동의하다";
+
+"add.widgets" = "Add Widgets";
+
+"allow" = "Allow";
+
+"are.you.sure" = "Are you sure?";
+
+"are.you.sure.to.restart" = "정말 다시 시작하시겠습니까?";
+
+"best.option" = "Best Value";
+
+"camera" = "카메라";
+
+"cancel" = "취소";
+
+"cancel.anytime" = "Cancel anytime";
+
+"coming.soon" = "Coming Soon";
+
+"compliment.amazing" = "놀라워요!";
+
+"compliment.awesome" = "굉장해요!";
+
+"compliment.cool" = "멋져요!";
+
+"compliment.fantastic" = "환상적이에요!";
+
+"compliment.great" = "훌륭해요!";
+
+"compliment.wow" = "와우!";
+
+/* By tapping Continue, you confirm that you acknowledge and accepted our Privacy Policy and Terms Of Use */
+"consent.body" = "By tapping Continue, you confirm that you acknowledge and accepted our %@ and %@.";
+
+/* By tapping Continue, you confirm that you acknowledge and accepted our Privacy Policy and Terms Of Use */
+"consent.body.short" = "By tapping Continue, you confirm that you acknowledge and accepted our %@ and %@.";
+
+"consent.title" = "Welcome!";
+
+"continue" = "Continue";
+
+"data.sharing.consent" = "데이터 공유 동의";
+
+"date" = "Date";
+
+"delete" = "삭제";
+
+"details" = "세부 내용";
+
+"distance" = "Distance";
+
+"done" = "완료";
+
+"duration" = "Duration";
+
+"edit" = "Edit";
+
+"every.day" = "Every Day";
+
+"every.month" = "Every Month";
+
+"every.n.seconds" = "Every %@ seconds";
+
+"every.week" = "Every Week";
+
+"every.year" = "Every Year";
+
+"facebook" = "Facebook";
+
+"failed.to.restore.message" = "복구 실패";
+
+"failed.to.subscribe.message" = "구독에 실패했습니다";
+
+"fb.sharing.error.message" = "공유 실패";
+
+"fb.sharing.error.title" = "경고";
+
+"forever" = "Forever";
+
+"forever.for.price" = "Forever for %@";
+
+"free.adjective" = "비어 있는";
+
+"get.now" = "설치";
+
+"get.premium" = "프리미엄";
+
+"get.verb" = "가져 오기";
+
+"get.x" = "%@배 받기";
+
+"give.notifications.access" = "Please allow access to Notifications.";
+
+"history" = "History";
+
+"imessage" = "iMessage";
+
+"instagram" = "Instagram";
+
+"level.n" = "%@ 레벨";
+
+"library" = "Library";
+
+"loading" = "로딩";
+
+"loading.message" = "이 작업은 시간이 약간 걸릴 수 있으니 기다려 주세요.";
+
+"loading.title" = "기다려 주세요";
+
+"month" = "Month";
+
+"monthly" = "월간";
+
+"months" = "Months";
+
+"more.levels" = "More Levels";
+
+"music" = "음악";
+
+"my.works" = "My Works";
+
+"n.days.trial" = "%@일 동안 무료";
+
+"n.days.trial.then.price.month" = "%@ days trial, then %@/month";
+
+"n.days.trial.then.price.week" = "%@ days trial, then %@/week";
+
+"n.days.trial.then.price.year" = "%@ days trial, then %@/year";
+
+"n.seconds.short" = "%@ s";
+
+"never" = "Never";
+
+"next" = "다음";
+
+"no" = "아니요";
+
+"no.camera.access.message" = "Please allow access to Camera";
+
+"no.fb.account.message" = "공유하려면 페이스북 앱을 설치하셔야 합니다";
+
+"no.fb.account.title" = "페이스북 계정을 찾을 수 없습니다";
+
+"no.internet" = "인터넷 연결을 확인하시고 다시 한번 시도해 보세요.";
+
+"no.items.to.restore" = "죄송합니다, 구매 내역이 없는 것 같습니다";
+
+"no.mic.access.message" = "Please allow access to Microphone";
+
+"no.photo.library.access.import.message" = "사진에 대한 액세스를 허용하십시오";
+
+"notifications" = "Notifications";
+
+"ok" = "OK";
+
+"one.month.for.price" = "1 month for %@";
+
+"one.week.for.price" = "1 week for %@";
+
+"one.year.for.price" = "1 year for %@";
+
+"oops" = "이런...";
+
+"open" = "열기";
+
+"opt.out" = "Opt-out";
+
+"opt.out.dialog.body" = "You confirmed that you reviewed and accepted our Privacy Policy and Terms of Use. Are you sure that you want to opt-out ? You'll not be able to use this application.";
+
+"or.continue.limited" = "or continue with a limited version";
+
+"other" = "기타";
+
+"popular" = "Popular";
+
+"popup.adfree.message" = "광고를 영구히 삭제하고 최상의 게임 경험을 누리세요";
+
+"price.per.month" = "%@/달";
+
+"price.per.week" = "%@/week";
+
+"price.per.week.after.trial" = "%@/주 후에 체험기간 종료";
+
+"price.per.year" = "%@/year";
+
+"privacy.policy" = "개인정보보호 정책";
+
+"rate.app" = "평가";
+
+"remove" = "삭제";
+
+"remove.ads" = "광고를 제거하다";
+
+"remove.ads.question" = "광고를 삭제하겠습니까?";
+
+"repeat.noun" = "Repeat";
+
+"restart" = "Restart";
+
+"restore" = "구매 복원";
+
+"restore.purchases" = "구매를 복원";
+
+"retry" = "재시도";
+
+"rewarded.video.closed" = "죄송합니다. 보상을 받으려면 동영상을 끝까지 시청해야 합니다.";
+
+"rewarded.video.no.fill" = "이용할 수 있는 비디오가 없습니다. 다시 시도하세요";
+
+"save" = "저장";
+
+"save.percent" = "%@ 절약";
+
+"see.all" = "모두 보기";
+
+"settings" = "설정";
+
+"share" = "공유하기";
+
+"sharing.hashtag.message" = "Copy %@ tag to use it in your post";
+
+"skip" = "넘어가기";
+
+"something.went.wrong" = "무언가 잘못됐습니다.";
+
+"sounds" = "사운드";
+
+"store" = "저장";
+
+"subscribe" = "Subscribe";
+
+"subscribe.for" = "subscribe for %@";
+
+"subscription.renew.plan.monthly" = "매달 자동 갱신 플랜";
+
+"subscription.renew.plan.weekly" = "매주 자동 갱신 플랜";
+
+"subscription.renews.monthly" = "Subscription auto-renews at %@ per month";
+
+"support" = "지원하다";
+
+"terms.of.use" = "사용자 역관";
+
+"time" = "Time";
+
+"try.again" = "다시 시도";
+
+"try.for.free" = "무료로 체험하기";
+
+"try.premium" = "Try Premium";
+
+"unlimited" = "무제한";
+
+"version.description" = "Version %@";
+
+"vibration" = "진동";
+
+"watch" = "관찰";
+
+"week" = "Week";
+
+"weekly" = "주간";
+
+"yes" = "예";
+

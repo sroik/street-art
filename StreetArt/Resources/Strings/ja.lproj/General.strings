@@ -1,0 +1,266 @@
+"accept" = "同意する";
+
+"add.widgets" = "Add Widgets";
+
+"allow" = "Allow";
+
+"are.you.sure" = "Are you sure?";
+
+"are.you.sure.to.restart" = "また最初から始めますか?";
+
+"best.option" = "Best Value";
+
+"camera" = "カメラ";
+
+"cancel" = "キャンセル";
+
+"cancel.anytime" = "Cancel anytime";
+
+"coming.soon" = "Coming Soon";
+
+"compliment.amazing" = "すごい！";
+
+"compliment.awesome" = "素晴らしい！！";
+
+"compliment.cool" = "クール！";
+
+"compliment.fantastic" = "素晴らしい！";
+
+"compliment.great" = "いいですね！";
+
+"compliment.wow" = "わあ！";
+
+/* By tapping Continue, you confirm that you acknowledge and accepted our Privacy Policy and Terms Of Use */
+"consent.body" = "By tapping Continue, you confirm that you acknowledge and accepted our %@ and %@.";
+
+/* By tapping Continue, you confirm that you acknowledge and accepted our Privacy Policy and Terms Of Use */
+"consent.body.short" = "By tapping Continue, you confirm that you acknowledge and accepted our %@ and %@.";
+
+"consent.title" = "Welcome!";
+
+"continue" = "Continue";
+
+"data.sharing.consent" = "データ共有の同意";
+
+"date" = "Date";
+
+"delete" = "削除";
+
+"details" = "詳細";
+
+"distance" = "Distance";
+
+"done" = "完了";
+
+"duration" = "Duration";
+
+"edit" = "Edit";
+
+"every.day" = "Every Day";
+
+"every.month" = "Every Month";
+
+"every.n.seconds" = "Every %@ seconds";
+
+"every.week" = "Every Week";
+
+"every.year" = "Every Year";
+
+"facebook" = "Facebook";
+
+"failed.to.restore.message" = "復元に失敗";
+
+"failed.to.subscribe.message" = "購読に失敗";
+
+"fb.sharing.error.message" = "シェアできませんでした";
+
+"fb.sharing.error.title" = "警告";
+
+"forever" = "Forever";
+
+"forever.for.price" = "Forever for %@";
+
+"free.adjective" = "自由";
+
+"get.now" = "入手";
+
+"get.premium" = "プレミアムをゲット";
+
+"get.verb" = "取得する";
+
+"get.x" = "x%@に増やす";
+
+"give.notifications.access" = "Please allow access to Notifications.";
+
+"history" = "History";
+
+"imessage" = "iMessage";
+
+"instagram" = "Instagram";
+
+"level.n" = "レベル%@";
+
+"library" = "Library";
+
+"loading" = "読み込み中";
+
+"loading.message" = "お待ちください。このプロセスには時間がかかる可能性があります。";
+
+"loading.title" = "お待ちください";
+
+"month" = "Month";
+
+"monthly" = "毎月";
+
+"months" = "Months";
+
+"more.levels" = "More Levels";
+
+"music" = "音楽";
+
+"my.works" = "My Works";
+
+"n.days.trial" = "%@日間無料";
+
+"n.days.trial.then.price.month" = "%@ days trial, then %@/month";
+
+"n.days.trial.then.price.week" = "%@ days trial, then %@/week";
+
+"n.days.trial.then.price.year" = "%@ days trial, then %@/year";
+
+"n.seconds.short" = "%@ s";
+
+"never" = "Never";
+
+"next" = "次";
+
+"no" = "いいえ";
+
+"no.camera.access.message" = "Please allow access to Camera";
+
+"no.fb.account.message" = "シェアするにはフェイスブックのアプリをインストールする必要があります";
+
+"no.fb.account.title" = "フェイスブックのアカウントはう見つかりませんでした";
+
+"no.internet" = "インターネットの接続を確認して再試行してください。";
+
+"no.items.to.restore" = "申し訳ありません、有効なサービス登録が存在していないようです。";
+
+"no.mic.access.message" = "Please allow access to Microphone";
+
+"no.photo.library.access.import.message" = "写真へのアクセスを許可してください";
+
+"notifications" = "Notifications";
+
+"ok" = "OK";
+
+"one.month.for.price" = "1 month for %@";
+
+"one.week.for.price" = "1 week for %@";
+
+"one.year.for.price" = "1 year for %@";
+
+"oops" = "おっと...";
+
+"open" = "開く";
+
+"opt.out" = "Opt-out";
+
+"opt.out.dialog.body" = "You confirmed that you reviewed and accepted our Privacy Policy and Terms of Use. Are you sure that you want to opt-out ? You'll not be able to use this application.";
+
+"or.continue.limited" = "or continue with a limited version";
+
+"other" = "Other";
+
+"popular" = "Popular";
+
+"popup.adfree.message" = "Remove ads forever and enjoy the best gaming experience";
+
+"price.per.month" = "%@/月";
+
+"price.per.week" = "%@/week";
+
+"price.per.week.after.trial" = "トライアル終了後、%@/週";
+
+"price.per.year" = "%@/year";
+
+"privacy.policy" = "プライバシーポリシー";
+
+"rate.app" = "私たちを評価してください";
+
+"remove" = "Remove";
+
+"remove.ads" = "広告を削除";
+
+"remove.ads.question" = "Remove Ads?";
+
+"repeat.noun" = "Repeat";
+
+"restart" = "Restart";
+
+"restore" = "修復";
+
+"restore.purchases" = "購入を復元";
+
+"retry" = "もう一度トライする";
+
+"rewarded.video.closed" = "すみませんが、報酬を得るためには動画を最後まで見る必要があります。";
+
+"rewarded.video.no.fill" = "利用できる動画はありません。後ほど再度お試しください";
+
+"save" = "を保存する";
+
+"save.percent" = "%@お得です";
+
+"see.all" = "すべて表示";
+
+"settings" = "設定";
+
+"share" = "共有";
+
+"sharing.hashtag.message" = "Copy %@ tag to use it in your post";
+
+"skip" = "スキップ";
+
+"something.went.wrong" = "問題が発生しました。";
+
+"sounds" = "サウンド";
+
+"store" = "お店";
+
+"subscribe" = "Subscribe";
+
+"subscribe.for" = "subscribe for %@";
+
+"subscription.renew.plan.monthly" = "プランは、毎月自動的に更新されます";
+
+"subscription.renew.plan.weekly" = "プランは、毎週自動的に更新されます";
+
+"subscription.renews.monthly" = "Subscription auto-renews at %@ per month";
+
+"support" = "サポート";
+
+"terms.of.use" = "利用諸条件";
+
+"time" = "Time";
+
+"try.again" = "もう一度お試しください";
+
+"try.for.free" = "を無料で試す";
+
+"try.premium" = "Try Premium";
+
+"unlimited" = "無制限";
+
+"version.description" = "Version %@";
+
+"vibration" = "バイブレーション";
+
+"watch" = "見る";
+
+"week" = "Week";
+
+"weekly" = "毎週";
+
+"yes" = "はい";
+

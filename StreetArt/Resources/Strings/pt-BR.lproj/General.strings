@@ -1,0 +1,266 @@
+"accept" = "Aceitar";
+
+"add.widgets" = "Adicionar Widgets";
+
+"allow" = "Permitir";
+
+"are.you.sure" = "Você tem certeza?";
+
+"are.you.sure.to.restart" = "Tem a certeza de que pretende reiniciar?";
+
+"best.option" = "Melhor Valor";
+
+"camera" = "Câmera";
+
+"cancel" = "Cancelar";
+
+"cancel.anytime" = "Cancele a qualquer momento";
+
+"coming.soon" = "Em breve";
+
+"compliment.amazing" = "Incrível!";
+
+"compliment.awesome" = "Demais!";
+
+"compliment.cool" = "Legal!";
+
+"compliment.fantastic" = "Fantástico!";
+
+"compliment.great" = "Ótimo!";
+
+"compliment.wow" = "Uau!";
+
+/* By tapping Continue, you confirm that you acknowledge and accepted our Privacy Policy and Terms Of Use */
+"consent.body" = "Ao tocar em Continuar, você confirma que reconhece e aceitou os nossos %@ e %@.";
+
+/* By tapping Continue, you confirm that you acknowledge and accepted our Privacy Policy and Terms Of Use */
+"consent.body.short" = "Ao tocar em Continuar, você aceita nossos %@ e %@.";
+
+"consent.title" = "Bem-vindo!";
+
+"continue" = "Continuar";
+
+"data.sharing.consent" = "Consentimento de Compartilhamento de Dados";
+
+"date" = "Encontro";
+
+"delete" = "Excluir";
+
+"details" = "Detalhes";
+
+"distance" = "Distância\n";
+
+"done" = "Concluído";
+
+"duration" = "Duração";
+
+"edit" = "Editar";
+
+"every.day" = "Todo dia";
+
+"every.month" = "Todo mês";
+
+"every.n.seconds" = "A cada %@ segundos";
+
+"every.week" = "Toda semana";
+
+"every.year" = "Todo ano";
+
+"facebook" = "Facebook";
+
+"failed.to.restore.message" = "Falha ao Restaurar";
+
+"failed.to.subscribe.message" = "Algo correu mal";
+
+"fb.sharing.error.message" = "Falha ao compartilhar";
+
+"fb.sharing.error.title" = "Aviso";
+
+"forever" = "Para sempre";
+
+"forever.for.price" = "Para sempre por %@";
+
+"free.adjective" = "Livre";
+
+"get.now" = "OBTENHA";
+
+"get.premium" = "PREMIUM";
+
+"get.verb" = "Obter";
+
+"get.x" = "Ganhe x%@";
+
+"give.notifications.access" = "Por favor, conceda acesso às Notificações.";
+
+"history" = "História";
+
+"imessage" = "iMessage";
+
+"instagram" = "Instagram";
+
+"level.n" = "Nível %@";
+
+"library" = "Biblioteca";
+
+"loading" = "Carregando";
+
+"loading.message" = "Aguarde. Isso pode levar algum tempo.";
+
+"loading.title" = "Aguarde";
+
+"month" = "Mês";
+
+"monthly" = "Mensal";
+
+"months" = "Meses";
+
+"more.levels" = "Mais níveis";
+
+"music" = "Música";
+
+"my.works" = "Minha arte";
+
+"n.days.trial" = "%@ dias grátis";
+
+"n.days.trial.then.price.month" = "%@ dias grátis, depois %@/ mês";
+
+"n.days.trial.then.price.week" = "%@ dias grátis, depois %@ semanais";
+
+"n.days.trial.then.price.year" = "%@ dias grátis, depois %@/ano";
+
+"n.seconds.short" = "%@ s";
+
+"never" = "Nunca";
+
+"next" = "Próximo";
+
+"no" = "Não";
+
+"no.camera.access.message" = "Please allow access to Camera";
+
+"no.fb.account.message" = "Você precisa instalar o aplicativo do Facebook para compartilhar";
+
+"no.fb.account.title" = "Nenhuma Conta Encontrada no Facebook";
+
+"no.internet" = "Por favor, verifique a sua ligação à Internet e tente de novo.";
+
+"no.items.to.restore" = "Desculpe, parece que você não fez nenhuma compra";
+
+"no.mic.access.message" = "Please allow access to Microphone";
+
+"no.photo.library.access.import.message" = "Permitir acesso a fotos";
+
+"notifications" = "Notificações";
+
+"ok" = "OK";
+
+"one.month.for.price" = "1 mês por %@";
+
+"one.week.for.price" = "1 semana por %@";
+
+"one.year.for.price" = "1 ano por %@";
+
+"oops" = "Ups...";
+
+"open" = "Abrir";
+
+"opt.out" = "Desativar";
+
+"opt.out.dialog.body" = "Você confirmou que analisou e aceitou a nossa Política de Privacidade e Termos de Uso. Tem certeza de que deseja desativar? Você não poderá utilizar este aplicativo.";
+
+"or.continue.limited" = "ou continue com uma versão limitada";
+
+"other" = "Outros";
+
+"popular" = "Popular";
+
+"popup.adfree.message" = "Remova permanentemente os anúncios e aproveite a melhor experiência de jogos";
+
+"price.per.month" = "%@/mês";
+
+"price.per.week" = "%@/semana";
+
+"price.per.week.after.trial" = "%@/semana depois do fim do período de teste";
+
+"price.per.year" = "%@/ano";
+
+"privacy.policy" = "Política de Privacidade";
+
+"rate.app" = "Avalie-nos";
+
+"remove" = "Retirar";
+
+"remove.ads" = "Elimine os Anúncios";
+
+"remove.ads.question" = "Elimine os Anúncios?";
+
+"repeat.noun" = "Repetir";
+
+"restart" = "Reiniciar";
+
+"restore" = "Restaurar";
+
+"restore.purchases" = "Restaurar Compras";
+
+"retry" = "Repetir";
+
+"rewarded.video.closed" = "Desculpe, você precisa assistir a um vídeo até o final para ganhar uma recompensa.";
+
+"rewarded.video.no.fill" = "Não há vídeos disponíveis no momento. Tente novamente mais tarde.";
+
+"save" = "Salvar";
+
+"save.percent" = "Economize %@";
+
+"see.all" = "veja todos";
+
+"settings" = "Ajustes";
+
+"share" = "Compartir";
+
+"sharing.hashtag.message" = "Copie a tag %@ para usá-la em sua postagem";
+
+"skip" = "Pular";
+
+"something.went.wrong" = "Algo correu mal.";
+
+"sounds" = "Sons";
+
+"store" = "Loja";
+
+"subscribe" = "Subscrever";
+
+"subscribe.for" = "Assine por %@";
+
+"subscription.renew.plan.monthly" = "Renova automaticamente mensalmente";
+
+"subscription.renew.plan.weekly" = "Renova automaticamente semanalmente";
+
+"subscription.renews.monthly" = "A assinatura é renovada automaticamente por %@ por mês";
+
+"support" = "Suporte";
+
+"terms.of.use" = "Termos de uso";
+
+"time" = "Tempo";
+
+"try.again" = "Repetir";
+
+"try.for.free" = "Teste Grátis";
+
+"try.premium" = "Experimente o Premium";
+
+"unlimited" = "ilimitado";
+
+"version.description" = "Versão %@";
+
+"vibration" = "Vibração";
+
+"watch" = "Assistir";
+
+"week" = "Semana";
+
+"weekly" = "Semanal";
+
+"yes" = "Sim";
+

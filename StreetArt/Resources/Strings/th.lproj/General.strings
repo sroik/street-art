@@ -1,0 +1,266 @@
+"accept" = "ตกลง";
+
+"add.widgets" = "Add Widgets";
+
+"allow" = "Allow";
+
+"are.you.sure" = "Are you sure?";
+
+"are.you.sure.to.restart" = "คุณแน่ใจหรือว่าต้องการรีสตาร์ท";
+
+"best.option" = "Best Value";
+
+"camera" = "กล้องถ่ายรูป";
+
+"cancel" = "ยกเลิก";
+
+"cancel.anytime" = "Cancel anytime";
+
+"coming.soon" = "Coming Soon";
+
+"compliment.amazing" = "น่าทึ่ง!";
+
+"compliment.awesome" = "สุดยอด!";
+
+"compliment.cool" = "เจ๋ง!";
+
+"compliment.fantastic" = "วิเศษ!";
+
+"compliment.great" = "เยี่ยม!";
+
+"compliment.wow" = "ว้าว!";
+
+/* By tapping Continue, you confirm that you acknowledge and accepted our Privacy Policy and Terms Of Use */
+"consent.body" = "By tapping Continue, you confirm that you acknowledge and accepted our %@ and %@.";
+
+/* By tapping Continue, you confirm that you acknowledge and accepted our Privacy Policy and Terms Of Use */
+"consent.body.short" = "By tapping Continue, you confirm that you acknowledge and accepted our %@ and %@.";
+
+"consent.title" = "Welcome!";
+
+"continue" = "Continue";
+
+"data.sharing.consent" = "การให้สิทธิ์เเบ่งปันข้อมูล";
+
+"date" = "Date";
+
+"delete" = "ลบ";
+
+"details" = "รายละเอียด";
+
+"distance" = "Distance";
+
+"done" = "เสร็จ";
+
+"duration" = "Duration";
+
+"edit" = "Edit";
+
+"every.day" = "Every Day";
+
+"every.month" = "Every Month";
+
+"every.n.seconds" = "Every %@ seconds";
+
+"every.week" = "Every Week";
+
+"every.year" = "Every Year";
+
+"facebook" = "Facebook";
+
+"failed.to.restore.message" = "การกู้คืนล้มเหลว";
+
+"failed.to.subscribe.message" = "สมัครสมาชิกไม่สำเร็จ";
+
+"fb.sharing.error.message" = "ไม่สามารถแชร์";
+
+"fb.sharing.error.title" = "คำเตือน";
+
+"forever" = "Forever";
+
+"forever.for.price" = "Forever for %@";
+
+"free.adjective" = "ฟรี";
+
+"get.now" = "รับ";
+
+"get.premium" = "ลองใช้ฟรี";
+
+"get.verb" = "รับ";
+
+"get.x" = "รับ x%@ ถัง";
+
+"give.notifications.access" = "Please allow access to Notifications.";
+
+"history" = "History";
+
+"imessage" = "iMessage";
+
+"instagram" = "Instagram";
+
+"level.n" = "ระดับ %@";
+
+"library" = "Library";
+
+"loading" = "กำลังโหลด";
+
+"loading.message" = "โปรดรอ สิ่งนี้อาจใช้เวลาสักครู่";
+
+"loading.title" = "โปรดรอ";
+
+"month" = "Month";
+
+"monthly" = "รายเดือน";
+
+"months" = "Months";
+
+"more.levels" = "More Levels";
+
+"music" = "ดนตรี";
+
+"my.works" = "My Works";
+
+"n.days.trial" = "ฟรี %@ วัน";
+
+"n.days.trial.then.price.month" = "%@ days trial, then %@/month";
+
+"n.days.trial.then.price.week" = "%@ days trial, then %@/week";
+
+"n.days.trial.then.price.year" = "%@ days trial, then %@/year";
+
+"n.seconds.short" = "%@ s";
+
+"never" = "Never";
+
+"next" = "ต่อไป";
+
+"no" = "ไม่";
+
+"no.camera.access.message" = "Please allow access to Camera";
+
+"no.fb.account.message" = "คุณจำเป็นต้องติดตั้งแอปของเฟซบุ๊กเพื่อแชร์";
+
+"no.fb.account.title" = "ไม่พบบัญชีเฟซบุ๊ก";
+
+"no.internet" = "กรุณาตรวจสอบการเชื่อมต่ออินเทอร์เน็ตและลองอีกครั้ง";
+
+"no.items.to.restore" = "ขออภัย ดูเหมือนว่าคุณจะไม่มีการสมัครสมาชิกที่ใช้งานอยู่";
+
+"no.mic.access.message" = "Please allow access to Microphone";
+
+"no.photo.library.access.import.message" = "กรุณาอนุญาตให้เข้าถึงภาพถ่าย";
+
+"notifications" = "Notifications";
+
+"ok" = "ตกลง";
+
+"one.month.for.price" = "1 month for %@";
+
+"one.week.for.price" = "1 week for %@";
+
+"one.year.for.price" = "1 year for %@";
+
+"oops" = "อุ๊บส์...";
+
+"open" = "เปิด";
+
+"opt.out" = "Opt-out";
+
+"opt.out.dialog.body" = "You confirmed that you reviewed and accepted our Privacy Policy and Terms of Use. Are you sure that you want to opt-out ? You'll not be able to use this application.";
+
+"or.continue.limited" = "or continue with a limited version";
+
+"other" = "อื่น ๆ";
+
+"popular" = "Popular";
+
+"popup.adfree.message" = "ลบโฆษณาตลอดไปและสนุกกับประสบการณ์การเล่นเกมที่ดีที่สุด";
+
+"price.per.month" = "%@/เดือน";
+
+"price.per.week" = "%@/week";
+
+"price.per.week.after.trial" = "%@/สัปดาห์หลังหมดระยะทดลองใช้";
+
+"price.per.year" = "%@/year";
+
+"privacy.policy" = "นโยบายความเป็นส่วนตัว";
+
+"rate.app" = "ให้คะแนนเรา";
+
+"remove" = "ลบ";
+
+"remove.ads" = "ลบโฆษณา";
+
+"remove.ads.question" = "ลบโฆษณาหรือไม่";
+
+"repeat.noun" = "Repeat";
+
+"restart" = "Restart";
+
+"restore" = "เรียกคืน";
+
+"restore.purchases" = "เรียกคืนการซื้อสินค้า";
+
+"retry" = "ลองอีกครั้ง";
+
+"rewarded.video.closed" = "ขออภัย คุณต้องดูวิดีโอจนจบเพื่อรับรางวัล";
+
+"rewarded.video.no.fill" = "ไม่มีวิดีโอที่แสดงได้ โปรดลองอีกครั้งภายหลัง";
+
+"save" = "บันทึก";
+
+"save.percent" = "ประหยัด %@";
+
+"see.all" = "ดูทั้งหมด";
+
+"settings" = "การตั้งค่า";
+
+"share" = "แชร์";
+
+"sharing.hashtag.message" = "Copy %@ tag to use it in your post";
+
+"skip" = "ข้าม";
+
+"something.went.wrong" = "มีข้อผิดพลาดเกิดขึ้น";
+
+"sounds" = "เสียง";
+
+"store" = "เก็บ";
+
+"subscribe" = "Subscribe";
+
+"subscribe.for" = "subscribe for %@";
+
+"subscription.renew.plan.monthly" = "แพคเกจจะต่ออายุอัตโนมัติทุกเดือน";
+
+"subscription.renew.plan.weekly" = "แพคเกจจะต่ออายุอัตโนมัติทุกสัปดาห์";
+
+"subscription.renews.monthly" = "Subscription auto-renews at %@ per month";
+
+"support" = "สนับสนุน";
+
+"terms.of.use" = "ข้อตกลงการใช้งาน";
+
+"time" = "Time";
+
+"try.again" = "ลองอีกครั้ง";
+
+"try.for.free" = "ลองใช้ฟรี";
+
+"try.premium" = "Try Premium";
+
+"unlimited" = "ไม่จำกัด";
+
+"version.description" = "Version %@";
+
+"vibration" = "การสั่นสะเทือน";
+
+"watch" = "เฝ้าดู";
+
+"week" = "Week";
+
+"weekly" = "รายสัปดาห์";
+
+"yes" = "ใช่";
+

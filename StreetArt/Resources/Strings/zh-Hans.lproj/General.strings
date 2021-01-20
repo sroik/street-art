@@ -1,0 +1,266 @@
+"accept" = "接受";
+
+"add.widgets" = "Add Widgets";
+
+"allow" = "Allow";
+
+"are.you.sure" = "您确定吗?";
+
+"are.you.sure.to.restart" = "确定要重新开始吗？";
+
+"best.option" = "最佳选择";
+
+"camera" = "相机";
+
+"cancel" = "取消";
+
+"cancel.anytime" = "随时取消\n";
+
+"coming.soon" = "快来了";
+
+"compliment.amazing" = "令人称奇！";
+
+"compliment.awesome" = "太棒了！";
+
+"compliment.cool" = "酷！";
+
+"compliment.fantastic" = "了不起！";
+
+"compliment.great" = "很好！";
+
+"compliment.wow" = "哇！";
+
+/* By tapping Continue, you confirm that you acknowledge and accepted our Privacy Policy and Terms Of Use */
+"consent.body" = "通过点击“继续”，即确认您已审阅并接受我们的 %@ 和 %@。";
+
+/* By tapping Continue, you confirm that you acknowledge and accepted our Privacy Policy and Terms Of Use */
+"consent.body.short" = "通过点击“继续”，即确认您已审阅并接受我们的 %@ 和 %@。";
+
+"consent.title" = "欢迎！\n";
+
+"continue" = "继续";
+
+"data.sharing.consent" = "数据共享许可";
+
+"date" = "Date";
+
+"delete" = "删除";
+
+"details" = "详情";
+
+"distance" = "Distance";
+
+"done" = "完成";
+
+"duration" = "Duration";
+
+"edit" = "编辑";
+
+"every.day" = "每天";
+
+"every.month" = "每个月";
+
+"every.n.seconds" = "Every %@ seconds";
+
+"every.week" = "每周";
+
+"every.year" = "每年";
+
+"facebook" = "Facebook";
+
+"failed.to.restore.message" = "无法恢复";
+
+"failed.to.subscribe.message" = "发生了错误";
+
+"fb.sharing.error.message" = "分享失败";
+
+"fb.sharing.error.title" = "警告";
+
+"forever" = "Forever";
+
+"forever.for.price" = "Forever for %@";
+
+"free.adjective" = "自由";
+
+"get.now" = "安装";
+
+"get.premium" = "获取高级版";
+
+"get.verb" = "得到";
+
+"get.x" = "得到%@倍";
+
+"give.notifications.access" = "请允许访问通知\n";
+
+"history" = "History";
+
+"imessage" = "iMessage";
+
+"instagram" = "Instagram";
+
+"level.n" = "第%@级";
+
+"library" = "资料库";
+
+"loading" = "加载中";
+
+"loading.message" = "请稍后，这可能需要一点时间。";
+
+"loading.title" = "请稍后";
+
+"month" = "Month";
+
+"monthly" = "每月";
+
+"months" = "Months";
+
+"more.levels" = "更多级别";
+
+"music" = "音乐";
+
+"my.works" = "我的作品";
+
+"n.days.trial" = "%@天免费";
+
+"n.days.trial.then.price.month" = "试用%@天，然后每月%@";
+
+"n.days.trial.then.price.week" = "免费试用 %@ 天，然后 %@ 周";
+
+"n.days.trial.then.price.year" = "％@天试用，然后％@ /年\n";
+
+"n.seconds.short" = "%@ s";
+
+"never" = "决不";
+
+"next" = "下一步";
+
+"no" = "没有";
+
+"no.camera.access.message" = "Please allow access to Camera";
+
+"no.fb.account.message" = "如需分享，请您安装 Facebook 的应用";
+
+"no.fb.account.title" = "没有发现任何 Facebook 帐号";
+
+"no.internet" = "请检查您的网络连接并重试。";
+
+"no.items.to.restore" = "抱歉，看来您没有任何购买";
+
+"no.mic.access.message" = "Please allow access to Microphone";
+
+"no.photo.library.access.import.message" = "请允许访问照片";
+
+"notifications" = "通知";
+
+"ok" = "好";
+
+"one.month.for.price" = "1 month for %@";
+
+"one.week.for.price" = "1 week for %@";
+
+"one.year.for.price" = "1 year for %@";
+
+"oops" = "哎呀...";
+
+"open" = "打开";
+
+"opt.out" = "选择退出";
+
+"opt.out.dialog.body" = "您已确认您已经阅读并接受了我们的隐私政策和使用条款。您确定要退出吗？您将无法使用此应用程序。";
+
+"or.continue.limited" = "或继续使用受限版本";
+
+"other" = "其他";
+
+"popular" = "Popular";
+
+"popup.adfree.message" = "永远删除广告，尽情享受最棒的游戏体验";
+
+"price.per.month" = "%@/月";
+
+"price.per.week" = "%@/周";
+
+"price.per.week.after.trial" = "%@试用结束后/周";
+
+"price.per.year" = "%@/年";
+
+"privacy.policy" = "隐私政策";
+
+"rate.app" = "评价我们\n";
+
+"remove" = "去掉";
+
+"remove.ads" = "移除广告";
+
+"remove.ads.question" = "移除广告？";
+
+"repeat.noun" = "重复";
+
+"restart" = "重新开始";
+
+"restore" = "恢复购买";
+
+"restore.purchases" = "恢复购买";
+
+"retry" = "重试";
+
+"rewarded.video.closed" = "抱歉，您需要看完一个视频才能得到奖励。";
+
+"rewarded.video.no.fill" = "目前没有可用的视频。请稍后再试。";
+
+"save" = "保存";
+
+"save.percent" = "节省%@";
+
+"see.all" = "查看全部";
+
+"settings" = "设置";
+
+"share" = "分享";
+
+"sharing.hashtag.message" = "Copy %@ tag to use it in your post";
+
+"skip" = "跳过";
+
+"something.went.wrong" = "发生了错误。";
+
+"sounds" = "声音";
+
+"store" = "商店";
+
+"subscribe" = "Subscribe";
+
+"subscribe.for" = "訂閱 %@";
+
+"subscription.renew.plan.monthly" = "计划每月自动更新";
+
+"subscription.renew.plan.weekly" = "计划于每周自动更";
+
+"subscription.renews.monthly" = "订阅以每月%@的价格自动续订\n";
+
+"support" = "联系我们";
+
+"terms.of.use" = "使用条款";
+
+"time" = "Time";
+
+"try.again" = "重试";
+
+"try.for.free" = "免费试用";
+
+"try.premium" = "尝试高级";
+
+"unlimited" = "无限";
+
+"version.description" = "版本%@\n";
+
+"vibration" = "振动";
+
+"watch" = "观看";
+
+"week" = "Week";
+
+"weekly" = "每周";
+
+"yes" = "是的";
+

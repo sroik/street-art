@@ -4,7 +4,6 @@ output_dir: StreetArt/Resources/Generated/
 strings:
   inputs:
     - Strings/en.lproj/General.strings
-    // - Strings/en.lproj/Project.strings
   outputs:
       templateName: flat-swift5
       output: Strings.swift

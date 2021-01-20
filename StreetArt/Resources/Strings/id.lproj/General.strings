@@ -1,0 +1,266 @@
+"accept" = "Setuju";
+
+"add.widgets" = "Add Widgets";
+
+"allow" = "Allow";
+
+"are.you.sure" = "Are you sure?";
+
+"are.you.sure.to.restart" = "Anda yakin ingin mengulang dari awal?";
+
+"best.option" = "Best Value";
+
+"camera" = "Kamera";
+
+"cancel" = "Batal";
+
+"cancel.anytime" = "Cancel anytime";
+
+"coming.soon" = "Coming Soon";
+
+"compliment.amazing" = "Luar Biasa!";
+
+"compliment.awesome" = "Bagus!";
+
+"compliment.cool" = "Keren!";
+
+"compliment.fantastic" = "Fantastis!";
+
+"compliment.great" = "Hebat!";
+
+"compliment.wow" = "Wow!";
+
+/* By tapping Continue, you confirm that you acknowledge and accepted our Privacy Policy and Terms Of Use */
+"consent.body" = "By tapping Continue, you confirm that you acknowledge and accepted our %@ and %@.";
+
+/* By tapping Continue, you confirm that you acknowledge and accepted our Privacy Policy and Terms Of Use */
+"consent.body.short" = "By tapping Continue, you confirm that you acknowledge and accepted our %@ and %@.";
+
+"consent.title" = "Welcome!";
+
+"continue" = "Continue";
+
+"data.sharing.consent" = "Izin Berbagi Data";
+
+"date" = "Date";
+
+"delete" = "Hapus";
+
+"details" = "Detil";
+
+"distance" = "Distance";
+
+"done" = "Selesai";
+
+"duration" = "Duration";
+
+"edit" = "Edit";
+
+"every.day" = "Every Day";
+
+"every.month" = "Every Month";
+
+"every.n.seconds" = "Every %@ seconds";
+
+"every.week" = "Every Week";
+
+"every.year" = "Every Year";
+
+"facebook" = "Facebook";
+
+"failed.to.restore.message" = "Gagal Memulihkan";
+
+"failed.to.subscribe.message" = "Gagal Berlangganan";
+
+"fb.sharing.error.message" = "Gagal berbagi";
+
+"fb.sharing.error.title" = "Peringatan";
+
+"forever" = "Forever";
+
+"forever.for.price" = "Forever for %@";
+
+"free.adjective" = "Gratis";
+
+"get.now" = "DAPATKAN";
+
+"get.premium" = "Coba gratis";
+
+"get.verb" = "Dapatkan";
+
+"get.x" = "Raih x%@";
+
+"give.notifications.access" = "Please allow access to Notifications.";
+
+"history" = "History";
+
+"imessage" = "iMessage";
+
+"instagram" = "Instagram";
+
+"level.n" = "Tingkat %@";
+
+"library" = "Library";
+
+"loading" = "Memuat";
+
+"loading.message" = "Silakan tunggu, mungkin memerlukan waktu sebentar.";
+
+"loading.title" = "Silakan tunggu";
+
+"month" = "Month";
+
+"monthly" = "Bulanan";
+
+"months" = "Months";
+
+"more.levels" = "More Levels";
+
+"music" = "Musik";
+
+"my.works" = "My Works";
+
+"n.days.trial" = "coba gratis %@ hari";
+
+"n.days.trial.then.price.month" = "%@ days trial, then %@/month";
+
+"n.days.trial.then.price.week" = "%@ days trial, then %@/week";
+
+"n.days.trial.then.price.year" = "%@ days trial, then %@/year";
+
+"n.seconds.short" = "%@ s";
+
+"never" = "Never";
+
+"next" = "Selanjutnya";
+
+"no" = "Tidak";
+
+"no.camera.access.message" = "Please allow access to Camera";
+
+"no.fb.account.message" = "Anda perlu memasang aplikasi Facebook untuk berbagi";
+
+"no.fb.account.title" = "Tidak Menemukan Akun Facebook";
+
+"no.internet" = "Periksa koneksi Internet Anda dan coba lagi.";
+
+"no.items.to.restore" = "Maaf, tampaknya Anda tidak berlangganan.";
+
+"no.mic.access.message" = "Please allow access to Microphone";
+
+"no.photo.library.access.import.message" = "Silakan Izinkan Akses ke Foto";
+
+"notifications" = "Notifications";
+
+"ok" = "OK";
+
+"one.month.for.price" = "1 month for %@";
+
+"one.week.for.price" = "1 week for %@";
+
+"one.year.for.price" = "1 year for %@";
+
+"oops" = "Ups...";
+
+"open" = "Buka";
+
+"opt.out" = "Opt-out";
+
+"opt.out.dialog.body" = "You confirmed that you reviewed and accepted our Privacy Policy and Terms of Use. Are you sure that you want to opt-out ? You'll not be able to use this application.";
+
+"or.continue.limited" = "or continue with a limited version";
+
+"other" = "Lainnya";
+
+"popular" = "Popular";
+
+"popup.adfree.message" = "Hapus iklan selamanya dan nikmati pengalaman bermain yang terbaik";
+
+"price.per.month" = "%@/bulan";
+
+"price.per.week" = "%@/week";
+
+"price.per.week.after.trial" = "%@/minggu setelah uji coba berakhir";
+
+"price.per.year" = "%@/year";
+
+"privacy.policy" = "Kebijakan pribadi";
+
+"rate.app" = "Beri Nilai Kami";
+
+"remove" = "Hapus";
+
+"remove.ads" = "Hilangkan iklan";
+
+"remove.ads.question" = "Hapus Iklan?";
+
+"repeat.noun" = "Repeat";
+
+"restart" = "Restart";
+
+"restore" = "Perbaiki";
+
+"restore.purchases" = "Restore Purchases";
+
+"retry" = "Mencoba kembali";
+
+"rewarded.video.closed" = "Maaf, Anda harus menonton video hingga selesai untuk mendapatkan hadiah.";
+
+"rewarded.video.no.fill" = "Video tidak tersedia saat ini. Silakan coba lagi nanti";
+
+"save" = "Simpan";
+
+"save.percent" = "Hemat %@";
+
+"see.all" = "lihat semua";
+
+"settings" = "Pengaturan";
+
+"share" = "Bagikan";
+
+"sharing.hashtag.message" = "Copy %@ tag to use it in your post";
+
+"skip" = "Lewati";
+
+"something.went.wrong" = "Ada yang salah.";
+
+"sounds" = "Suara";
+
+"store" = "Toko";
+
+"subscribe" = "Subscribe";
+
+"subscribe.for" = "subscribe for %@";
+
+"subscription.renew.plan.monthly" = "Langganan diperpanjang otomatis setiap bulan";
+
+"subscription.renew.plan.weekly" = "Langganan diperpanjang otomatis setiap minggu";
+
+"subscription.renews.monthly" = "Subscription auto-renews at %@ per month";
+
+"support" = "Support";
+
+"terms.of.use" = "Syarat Penggunaan";
+
+"time" = "Time";
+
+"try.again" = "Coba lagi";
+
+"try.for.free" = "Coba gratis";
+
+"try.premium" = "Try Premium";
+
+"unlimited" = "tanpa batas";
+
+"version.description" = "Version %@";
+
+"vibration" = "Vibrasi";
+
+"watch" = "Menyaksikan";
+
+"week" = "Week";
+
+"weekly" = "Mingguan";
+
+"yes" = "Ya";
+

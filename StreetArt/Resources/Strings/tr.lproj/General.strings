@@ -1,0 +1,266 @@
+"accept" = "Kabul et";
+
+"add.widgets" = "Add Widgets";
+
+"allow" = "Allow";
+
+"are.you.sure" = "Are you sure?";
+
+"are.you.sure.to.restart" = "Yeniden başlatmak istediğinize emin misiniz?";
+
+"best.option" = "Best Value";
+
+"camera" = "Kamera";
+
+"cancel" = "İptal";
+
+"cancel.anytime" = "Cancel anytime";
+
+"coming.soon" = "Coming Soon";
+
+"compliment.amazing" = "İnanılmaz!";
+
+"compliment.awesome" = "Müthiş!";
+
+"compliment.cool" = "Mükemmel!";
+
+"compliment.fantastic" = "Olağanüstü!";
+
+"compliment.great" = "Harika!";
+
+"compliment.wow" = "Vay be!";
+
+/* By tapping Continue, you confirm that you acknowledge and accepted our Privacy Policy and Terms Of Use */
+"consent.body" = "By tapping Continue, you confirm that you acknowledge and accepted our %@ and %@.";
+
+/* By tapping Continue, you confirm that you acknowledge and accepted our Privacy Policy and Terms Of Use */
+"consent.body.short" = "By tapping Continue, you confirm that you acknowledge and accepted our %@ and %@.";
+
+"consent.title" = "Welcome!";
+
+"continue" = "Continue";
+
+"data.sharing.consent" = "Veri Paylaşımına Rıza";
+
+"date" = "Date";
+
+"delete" = "Sil";
+
+"details" = "Detaylar";
+
+"distance" = "Distance";
+
+"done" = "Bitti";
+
+"duration" = "Duration";
+
+"edit" = "Edit";
+
+"every.day" = "Every Day";
+
+"every.month" = "Every Month";
+
+"every.n.seconds" = "Every %@ seconds";
+
+"every.week" = "Every Week";
+
+"every.year" = "Every Year";
+
+"facebook" = "Facebook";
+
+"failed.to.restore.message" = "Geri Yükleme başarısız";
+
+"failed.to.subscribe.message" = "Abone olma başarısız";
+
+"fb.sharing.error.message" = "Paylaşma başarısız oldu";
+
+"fb.sharing.error.title" = "Uyarı";
+
+"forever" = "Forever";
+
+"forever.for.price" = "Forever for %@";
+
+"free.adjective" = "Bedava";
+
+"get.now" = "AL";
+
+"get.premium" = "Ücretsiz Deneyin";
+
+"get.verb" = "Almak";
+
+"get.x" = "x%@ al";
+
+"give.notifications.access" = "Please allow access to Notifications.";
+
+"history" = "History";
+
+"imessage" = "iMessage";
+
+"instagram" = "Instagram";
+
+"level.n" = "Seviye %@";
+
+"library" = "Library";
+
+"loading" = "Yükleniyor";
+
+"loading.message" = "Lütfen bekleyin, bu işlem biraz zaman alabilir.";
+
+"loading.title" = "Lütfen bekleyin";
+
+"month" = "Month";
+
+"monthly" = "Aylık";
+
+"months" = "Months";
+
+"more.levels" = "More Levels";
+
+"music" = "Müzik";
+
+"my.works" = "My Works";
+
+"n.days.trial" = "%@ gün ücretsiz deneme";
+
+"n.days.trial.then.price.month" = "%@ days trial, then %@/month";
+
+"n.days.trial.then.price.week" = "%@ days trial, then %@/week";
+
+"n.days.trial.then.price.year" = "%@ days trial, then %@/year";
+
+"n.seconds.short" = "%@ s";
+
+"never" = "Never";
+
+"next" = "İleri";
+
+"no" = "Hayır";
+
+"no.camera.access.message" = "Please allow access to Camera";
+
+"no.fb.account.message" = "Paylaşmak için Facebook'un uygulamasını yüklemeniz gerekiyor";
+
+"no.fb.account.title" = "Facebook Hesabı Bulunamadı";
+
+"no.internet" = "Lütfen İnternet bağlantınızı kontrol edin ve tekrar deneyin.";
+
+"no.items.to.restore" = "Üzgünüz, herhangi bir aktif üyeliğiniz gözükmüyor.";
+
+"no.mic.access.message" = "Please allow access to Microphone";
+
+"no.photo.library.access.import.message" = "Please Allow Access to Photos";
+
+"notifications" = "Notifications";
+
+"ok" = "TAMAM";
+
+"one.month.for.price" = "1 month for %@";
+
+"one.week.for.price" = "1 week for %@";
+
+"one.year.for.price" = "1 year for %@";
+
+"oops" = "Oops...";
+
+"open" = "Açmak";
+
+"opt.out" = "Opt-out";
+
+"opt.out.dialog.body" = "You confirmed that you reviewed and accepted our Privacy Policy and Terms of Use. Are you sure that you want to opt-out ? You'll not be able to use this application.";
+
+"or.continue.limited" = "or continue with a limited version";
+
+"other" = "Other";
+
+"popular" = "Popular";
+
+"popup.adfree.message" = "Remove ads forever and enjoy the best gaming experience";
+
+"price.per.month" = "%@/ay";
+
+"price.per.week" = "%@/week";
+
+"price.per.week.after.trial" = "Deneme bittikten sonra haftada %@";
+
+"price.per.year" = "%@/year";
+
+"privacy.policy" = "Gizlilik Poliikası";
+
+"rate.app" = "Bizi değerlendirin";
+
+"remove" = "Remove";
+
+"remove.ads" = "reklamları kaldırmak";
+
+"remove.ads.question" = "Remove Ads?";
+
+"repeat.noun" = "Repeat";
+
+"restart" = "Restart";
+
+"restore" = "Geri Yükle";
+
+"restore.purchases" = "Satın Almaları Geri Yükle";
+
+"retry" = "Tekrar Dene";
+
+"rewarded.video.closed" = "Maalesef, ödül almak için videoyu sonuna kadar izlemelisiniz.";
+
+"rewarded.video.no.fill" = "Mevcut video bulunmamaktadır. Lütfen daha sonra tekrar deneyin";
+
+"save" = "Kaydedin";
+
+"save.percent" = "%@ tasarruf edin";
+
+"see.all" = "tümünü gör";
+
+"settings" = "Ayarlar";
+
+"share" = "Paylaş";
+
+"sharing.hashtag.message" = "Copy %@ tag to use it in your post";
+
+"skip" = "Atla";
+
+"something.went.wrong" = "Bir sorun yaşandı.";
+
+"sounds" = "Ses";
+
+"store" = "Mağaza";
+
+"subscribe" = "Subscribe";
+
+"subscribe.for" = "subscribe for %@";
+
+"subscription.renew.plan.monthly" = "Tarife aylık olarak otomatik yenilenir";
+
+"subscription.renew.plan.weekly" = "Tarife haftalık olarak otomatik yenilenir";
+
+"subscription.renews.monthly" = "Subscription auto-renews at %@ per month";
+
+"support" = "Destek";
+
+"terms.of.use" = "Kullanım Şartları";
+
+"time" = "Time";
+
+"try.again" = "Tekrar dene";
+
+"try.for.free" = "Ücretsiz Deneyin";
+
+"try.premium" = "Try Premium";
+
+"unlimited" = "sınırsız";
+
+"version.description" = "Version %@";
+
+"vibration" = "Titreşim";
+
+"watch" = "İzle";
+
+"week" = "Week";
+
+"weekly" = "Haftalık";
+
+"yes" = "Evet";
+

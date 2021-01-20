@@ -26,8 +26,8 @@ end
 target 'StreetArt' do
   external
   internal
-
-  target 'UnitTests' do
-    inherit! :search_paths
-  end
+  
+  # target 'UnitTests' do
+  #   inherit! :search_paths
+  # end
 end
