@@ -1,0 +1,95 @@
+default_platform :ios
+skip_docs
+opt_out_usage
+
+lane :certificates do
+  types = %w(development adhoc appstore)
+  types.each do |type|
+    match(type: type, readonly: true)
+  end
+end
+
+lane :test do
+  scan(scheme: 'StreetArt', device: 'iPhone 11')
+end
+
+lane :deploy do
+  groups = ENV["TESTERS_GROUP"]
+  token = ENV["FIREBASE_TOKEN"]
+  UI.user_error! "Please set FIREBASE_TOKEN env-var or login to firebase cli" unless token
+  UI.user_error! "Please set TESTERS_GROUP env-var" unless groups
+
+  certificates
+  archive
+
+  firebase_app_distribution(
+    app: ENV["FIREBASE_APP_ID"],
+    groups: groups,
+    release_notes: last_git_commit[:message],
+    firebase_cli_token: token
+  )
+
+  broadcast_deploy
+end
+
+lane :deploy_unless_stopped do
+  unless stopped?
+    deploy
+  end
+end
+
+lane :archive do
+  gym(
+    scheme: 'StreetArt',
+    configuration: 'Adhoc',
+    export_method: 'ad-hoc'
+  )
+end
+
+lane :release do
+  fastlane_require 'fastlane-ext'
+  certificates
+  app_release(schemes: ['StreetArt'], version: ENV['VERSION'])
+  broadcast_release
+end
+
+lane :broadcast_deploy do
+  fastlane_require 'fastlane-ext'
+  changes = last_git_commit[:message].lines.first
+  message = [
+    "Sir, a new version of a secret project has been distributed!",
+    "CHANGES: #{changes}"
+  ].join("\n")
+  telegram(message: message)
+end
+
+lane :broadcast_release do
+  fastlane_require 'fastlane-ext'
+  version = ENV['APP_RELEASE_VERSION_TAG']
+  message = "Sir, version #{version} of a secret project has been released!"
+  telegram(message: message)
+end
+
+def stopped?
+  stop_keywords.any? do |k|
+    last_git_commit[:message].to_s.downcase.include?(k)
+  end
+end
+
+def stop_keywords
+  ["wip", "stop"]
+end
+
+lane :strings do
+  Dir.chdir("..") do
+    sh "phraseapp pull"
+  end
+
+  gen()
+end
+
+lane :gen do
+  Dir.chdir("..") do
+    sh "Pods/SwiftGen/bin/swiftgen config run --config swiftgen.yml --verbose"
+  end
+end

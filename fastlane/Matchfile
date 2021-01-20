@@ -1,0 +1,7 @@
+git_url "git@github.com:pocket-ninja/certificates.git"
+git_branch "master"
+type "development"
+app_identifier ["com.pocketninja.street-art"]
+username "pocketninjadev@gmail.com"
+shallow_clone true
+clone_branch_directly true

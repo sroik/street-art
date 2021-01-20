@@ -1,0 +1,29 @@
+phraseapp:
+  access_token: a8387d3bf926b4148431b0c9d159ea447b0e773d98bc3531aa1e15fe9bcc916a
+  file_format: strings
+
+  pull:
+    targets:
+    - file: ./StreetArt/Resources/Strings/<locale_code>.lproj/General.strings
+      project_id: 3f3506f1d401764041a9f2fefad0dbdf
+      params:
+        include_empty_translations: true
+        fallback_locale_id: en
+        encoding: UTF-8
+        convert_emoji: true
+
+    // - file: ./StreetArt/Resources/Strings/<locale_code>.lproj/InfoPlist.strings
+    //   project_id: <project_info_id>
+    //   params:
+    //     include_empty_translations: true
+    //     fallback_locale_id: en
+    //     encoding: UTF-8
+    //     convert_emoji: true
+
+    // - file: ./StreetArt/Resources/Strings/<locale_code>.lproj/Project.strings
+    //   project_id: <project_id>
+    //   params:
+    //     include_empty_translations: true
+    //     fallback_locale_id: en
+    //     encoding: UTF-8
+    //     convert_emoji: true

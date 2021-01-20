@@ -1,0 +1,21 @@
+input_dir: StreetArt/Resources/
+output_dir: StreetArt/Resources/Generated/
+
+strings:
+  inputs:
+    - Strings/en.lproj/General.strings
+    // - Strings/en.lproj/Project.strings
+  outputs:
+      templateName: flat-swift5
+      output: Strings.swift
+      params:
+        enumName: S
+
+xcassets:
+  inputs:
+    - Assets.xcassets
+  outputs:
+      templateName: swift5
+      output: Assets.swift
+      params:
+        enumName: A
