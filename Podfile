@@ -15,6 +15,7 @@ def external
   pod 'SwiftGen'
   pod 'SwiftLint'
   pod 'SwiftFormat/CLI'
+  pod 'lottie-ios'
   pod 'SwiftTweaks', :git => 'https://github.com/Khan/SwiftTweaks.git', :branch => 'master'
 end
 

@@ -4,6 +4,7 @@
 
 import UIKit
 import SnapKit
+import Lottie
 
 protocol GameViewControllerDelegate: AnyObject {
     func gameViewController(_ controller: GameViewController, didFinish level: Level)
@@ -13,15 +14,15 @@ final class GameViewController: BaseViewController {
     weak var delegate: GameViewControllerDelegate?
     
     struct DragState {
-        var sticker: UIImageView?
+        var sticker: StickerView?
         var position: CGPoint
         var anchor: CGPoint
     }
     
     init(level: Level) {
         self.level = level
-        self.mainImageView = UIImageView(image: level.mainImage)
-        self.stickerViews = level.stickers.map { UIImageView(image: $0) }
+        self.targetView = UIImageView(image: level.target)
+        self.stickerViews = level.stickers.map { StickerView(sticker: $0) }
         super.init()
     }
     
@@ -38,12 +39,12 @@ final class GameViewController: BaseViewController {
             make.height.equalTo(workspace.snp.width).dividedBy(ratio)
         }
         
-        workspace.addSubview(mainImageView)
-        mainImageView.contentMode = .scaleAspectFit
-        mainImageView.snp.makeConstraints { make in
-            let ratio = mainImageView.image?.size.ratio ?? 1
+        workspace.addSubview(targetView)
+        targetView.contentMode = .scaleAspectFit
+        targetView.snp.makeConstraints { make in
+            let ratio = targetView.image?.size.ratio ?? 1
             make.width.top.centerX.equalToSuperview()
-            make.height.equalTo(mainImageView.snp.width).dividedBy(ratio)
+            make.height.equalTo(targetView.snp.width).dividedBy(ratio)
         }
             
         stickerViews.forEach { stickerView in
@@ -70,11 +71,21 @@ final class GameViewController: BaseViewController {
     }
     
     private func win() {
-        delegate?.gameViewController(self, didFinish: level)
+        isWon = true
+        workspace.layer.pulsate(scale: 1.1, duration: 0.375)
+        
+        let animationView = AnimationView(file: .confettiAnimation, loop: .loop)
+        animationView.fill(in: workspace)
+        animationView.contentMode = .scaleAspectFill
+        animationView.play()
+        
+        DispatchQueue.main.after(3.0) {
+            self.delegate?.gameViewController(self, didFinish: self.level)
+        }
     }
     
     private func layoutStickers() {
-        guard stickerViews.count > 0 else {
+        guard stickerViews.count > 0, !isWon else {
             return
         }
 
@@ -117,7 +128,7 @@ final class GameViewController: BaseViewController {
             )
             
             capture()
-            showHand(at: point)
+            moveHand(to: point)
             
         case .changed where dragState.isDraging:
             dragState.position = point
@@ -136,8 +147,9 @@ final class GameViewController: BaseViewController {
             return
         }
         
-        stickerView.move(to: dragState.stickerCenter, duration: 0.15)
         workspace.bringSubviewToFront(stickerView)
+        stickerView.move(to: dragState.stickerCenter, duration: 0.15)
+        stickerView.layer.scale(to: stickerView.sticker.scale * 1.2)
     }
     
     private func releaseCaptured() {
@@ -146,16 +158,11 @@ final class GameViewController: BaseViewController {
         }
         
         stickerView.center = dragState.stickerCenter
-    }
-    
-    private func showHand(at point: CGPoint) {
-        moveHand(to: point)
-        handView.layer.scale(to: 0.9, duration: 0.2)
+        stickerView.layer.scale(to: stickerView.sticker.scale, duration: 0.15)
     }
     
     private func hideHand() {
         handView.isHidden = true
-        handView.layer.scale(to: 1.0, duration: 0)
     }
     
     private func moveHand(to point: CGPoint) {
@@ -169,7 +176,7 @@ final class GameViewController: BaseViewController {
         )
     }
     
-    private func stickerView(intersecting point: CGPoint, ignoring: UIView? = nil) -> UIImageView? {
+    private func stickerView(intersecting point: CGPoint, ignoring: UIView? = nil) -> StickerView? {
         stickerViews
             .sorted { $0.center.distance(to: point) < $1.center.distance(to: point) }
             .filter { $0 != ignoring }
@@ -187,11 +194,12 @@ final class GameViewController: BaseViewController {
     )
     
     @Published private var dragState: DragState = .empty
-    private let stickerViews: [UIImageView]
-    private let mainImageView: UIImageView
+    private let stickerViews: [StickerView]
+    private let targetView: UIImageView
     private let handView = UIImageView(image: A.hand3d.image)
     private let workspace = UIView()
     private let level: Level
+    private var isWon: Bool = false
 }
 
 extension GameViewController: UIGestureRecognizerDelegate {

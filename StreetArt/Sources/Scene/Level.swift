@@ -5,6 +5,11 @@
 import UIKit
 
 struct Level {
-    var mainImage: UIImage
-    var stickers: [UIImage]
+    var target: UIImage
+    var stickers: [Sticker]
+}
+
+struct Sticker {
+    var image: UIImage
+    var scale: CGFloat = 1.0
 }

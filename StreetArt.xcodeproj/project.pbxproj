@@ -10,6 +10,10 @@
 		AC7AFAA425B87978008E5859 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7AFAA325B87978008E5859 /* Level.swift */; };
 		AC7AFAE825B97AAA008E5859 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7AFAE725B97AAA008E5859 /* UIView+Extensions.swift */; };
 		AC7AFAEA25B97F70008E5859 /* CALayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7AFAE925B97F70008E5859 /* CALayer+Extensions.swift */; };
+		AC7AFAEC25B98A48008E5859 /* StickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7AFAEB25B98A48008E5859 /* StickerView.swift */; };
+		AC7AFAF125B99257008E5859 /* Lottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7AFAEF25B99257008E5859 /* Lottie.swift */; };
+		AC7AFAFC25B9926A008E5859 /* confetti_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = AC7AFAF625B9926A008E5859 /* confetti_animation.json */; };
+		AC7AFAFF25B9926A008E5859 /* fireworks_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = AC7AFAF925B9926A008E5859 /* fireworks_animation.json */; };
 		ACE12B5125B87153001DA124 /* Alert in Frameworks */ = {isa = PBXBuildFile; productRef = ACE12B5025B87153001DA124 /* Alert */; };
 		ACE12B5225B87153001DA124 /* Alert in Embed Frameworks */ = {isa = PBXBuildFile; productRef = ACE12B5025B87153001DA124 /* Alert */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		ACE12B5425B87153001DA124 /* UtilsCore in Frameworks */ = {isa = PBXBuildFile; productRef = ACE12B5325B87153001DA124 /* UtilsCore */; };
@@ -49,6 +53,11 @@
 		AC7AFAA325B87978008E5859 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 		AC7AFAE725B97AAA008E5859 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		AC7AFAE925B97F70008E5859 /* CALayer+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extensions.swift"; sourceTree = "<group>"; };
+		AC7AFAEB25B98A48008E5859 /* StickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerView.swift; sourceTree = "<group>"; };
+		AC7AFAEE25B99257008E5859 /* Lottie.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lottie.stencil; sourceTree = "<group>"; };
+		AC7AFAEF25B99257008E5859 /* Lottie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lottie.swift; sourceTree = "<group>"; };
+		AC7AFAF625B9926A008E5859 /* confetti_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = confetti_animation.json; sourceTree = "<group>"; };
+		AC7AFAF925B9926A008E5859 /* fireworks_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fireworks_animation.json; sourceTree = "<group>"; };
 		ACE12B8525B8773D001DA124 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACE12B8725B87797001DA124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACE12B8B25B877B7001DA124 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/General.strings; sourceTree = "<group>"; };
@@ -116,9 +125,36 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		AC7AFAED25B99256008E5859 /* Stencils */ = {
+			isa = PBXGroup;
+			children = (
+				AC7AFAEE25B99257008E5859 /* Lottie.stencil */,
+			);
+			path = Stencils;
+			sourceTree = "<group>";
+		};
+		AC7AFAF225B9926A008E5859 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC7AFAF325B9926A008E5859 /* Animations */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		AC7AFAF325B9926A008E5859 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				AC7AFAF625B9926A008E5859 /* confetti_animation.json */,
+				AC7AFAF925B9926A008E5859 /* fireworks_animation.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
 		ACE12B8025B876E6001DA124 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AC7AFAF225B9926A008E5859 /* Files */,
+				AC7AFAED25B99256008E5859 /* Stencils */,
 				ACE12B9925B877B7001DA124 /* Generated */,
 				ACE12B8925B877B7001DA124 /* Strings */,
 				ACE12B8725B87797001DA124 /* Assets.xcassets */,
@@ -156,6 +192,7 @@
 		ACE12B9925B877B7001DA124 /* Generated */ = {
 			isa = PBXGroup;
 			children = (
+				AC7AFAEF25B99257008E5859 /* Lottie.swift */,
 				ACE12B9A25B877B7001DA124 /* Strings.swift */,
 				ACE12B9B25B877B7001DA124 /* Assets.swift */,
 			);
@@ -194,6 +231,7 @@
 			children = (
 				ACE12BA925B87916001DA124 /* GameViewController.swift */,
 				AC7AFAA325B87978008E5859 /* Level.swift */,
+				AC7AFAEB25B98A48008E5859 /* StickerView.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -261,6 +299,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = sroik;
 				TargetAttributes = {
 					ACE503C625B86BED00FD516C = {
 						CreatedOnToolsVersion = 12.3;
@@ -306,6 +345,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC7AFAFC25B9926A008E5859 /* confetti_animation.json in Resources */,
+				AC7AFAFF25B9926A008E5859 /* fireworks_animation.json in Resources */,
 				ACE12B9C25B877B7001DA124 /* General.strings in Resources */,
 				ACE12B8825B87797001DA124 /* Assets.xcassets in Resources */,
 				ACE12B8625B8773D001DA124 /* LaunchScreen.storyboard in Resources */,
@@ -366,8 +407,10 @@
 				ACE12BA525B8780F001DA124 /* BaseViewController.swift in Sources */,
 				AC7AFAE825B97AAA008E5859 /* UIView+Extensions.swift in Sources */,
 				ACE12BA725B8780F001DA124 /* BaseNavigationController.swift in Sources */,
+				AC7AFAEC25B98A48008E5859 /* StickerView.swift in Sources */,
 				ACE12BA625B8780F001DA124 /* ContainerViewController.swift in Sources */,
 				ACE503CB25B86BED00FD516C /* AppDelegate.swift in Sources */,
+				AC7AFAF125B99257008E5859 /* Lottie.swift in Sources */,
 				AC7AFAEA25B97F70008E5859 /* CALayer+Extensions.swift in Sources */,
 				AC7AFAA425B87978008E5859 /* Level.swift in Sources */,
 				ACE12B9E25B877B7001DA124 /* Assets.swift in Sources */,

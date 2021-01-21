@@ -1,0 +1,40 @@
+// swiftlint:disable all
+// Generated using SwiftGen — https://github.com/SwiftGen/SwiftGen
+
+{% if files %}
+{% set accessModifier %}{% if param.publicAccess %}public{% else %}internal{% endif %}{% endset %}
+
+import Lottie
+import UIKit
+
+{{accessModifier}} enum LottieFile: String {
+  {% for file in files %}
+    case {{file.name|swiftIdentifier:"pretty"|lowerFirstWord|escapeReservedKeywords}} = "{{file.name}}.json"
+  {% endfor %}
+}
+
+extension LottieFile {
+    var animation: Animation? {
+        Animation.named(animationName)
+    }
+
+    var animationName: String {
+        rawValue.replacingOccurrences(of: ".json", with: "")
+    }
+}
+extension AnimationView {
+    convenience init(file: LottieFile, loop: LottieLoopMode = .playOnce, bundle: Bundle = .main) {
+        guard let path = bundle.path(forResource: file.rawValue, ofType: nil) else {
+            self.init()
+            return
+        }
+
+        self.init(filePath: path)
+        self.loopMode = loop
+        self.contentMode = .scaleAspectFit
+    }
+}
+
+{% else %}
+// No files found
+{% endif %}

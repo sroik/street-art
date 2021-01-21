@@ -19,13 +19,14 @@ extension CALayer {
     }
 
     func scale(to: CGFloat, duration: TimeInterval = 0.25) {
+        removeAnimation(forKey: .transformScale)
+
         let animation = CABasicAnimation(keyPath: .transform)
         animation.duration = duration
         animation.fromValue = transform
         animation.toValue = CATransform3DMakeScale(to, to, to)
-        
+      
         transform = CATransform3DMakeScale(to, to, to)
-        removeAnimation(forKey: .transformScale)
         add(animation, forKey: .transformScale)
     }
     

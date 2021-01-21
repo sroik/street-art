@@ -18,3 +18,9 @@ xcassets:
       output: Assets.swift
       params:
         enumName: A
+
+json:
+  inputs: Files
+  outputs:
+    templatePath: StreetArt/Resources/Stencils/Lottie.stencil
+    output: Lottie.swift

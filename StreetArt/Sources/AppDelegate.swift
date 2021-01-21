@@ -52,16 +52,25 @@ extension Level {
     static func all() -> [Level] {
         [
             Level(
-                mainImage: A.minionMain.image,
-                stickers: [A.minion1.image, A.minion2.image]
+                target: A.minionMain.image,
+                stickers: [
+                    Sticker(image: A.minion1.image, scale: 0.95),
+                    Sticker(image: A.minion2.image, scale: 0.9)
+                ]
             ),
             Level(
-                mainImage: A.libertyMain.image,
-                stickers: [A.liberty1.image, A.liberty2.image]
+                target: A.libertyMain.image,
+                stickers: [
+                    Sticker(image: A.liberty1.image, scale: 0.9),
+                    Sticker(image: A.liberty2.image, scale: 0.9)
+                ]
             ),
             Level(
-                mainImage: A.ufoMain.image,
-                stickers: [A.ufo1.image, A.ufo2.image]
+                target: A.ufoMain.image,
+                stickers: [
+                    Sticker(image: A.ufo1.image, scale: 0.8),
+                    Sticker(image: A.ufo2.image, scale: 0.95)
+                ]
             )
         ]
     }
