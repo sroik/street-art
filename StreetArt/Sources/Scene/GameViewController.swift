@@ -13,8 +13,9 @@ final class GameViewController: BaseViewController {
     weak var delegate: GameViewControllerDelegate?
     
     struct DragState {
-        var sticker: UIImage?
+        var sticker: UIImageView?
         var position: CGPoint
+        var anchor: CGPoint
     }
     
     init(level: Level) {
@@ -49,6 +50,13 @@ final class GameViewController: BaseViewController {
             workspace.addSubview(stickerView)
             stickerView.contentMode = .scaleAspectFit
         }
+        
+        panRecognizer.minimumPressDuration = 0
+        workspace.addGestureRecognizer(panRecognizer)
+        
+        handView.contentMode = .scaleAspectFit
+        handView.isHidden = true
+        workspace.addSubview(handView)
     }
     
     override func viewDidLayoutSubviews() {
@@ -80,6 +88,76 @@ final class GameViewController: BaseViewController {
     @objc private func onPan(_ recognizer: UILongPressGestureRecognizer) {
         let point = recognizer.location(in: recognizer.view)
         
+        switch recognizer.state {
+        case .began:
+            guard let stickerView = self.stickerView(intersecting: point) else {
+                return
+            }
+            
+            dragState = DragState(
+                sticker: stickerView,
+                position: point,
+                anchor: point.translation(to: stickerView.center)
+            )
+            
+            capture()
+            showHand(at: point)
+            
+        case .changed where dragState.isDraging:
+            dragState.position = point
+            dragState.sticker?.center = dragState.stickerCenter
+            moveHand(to: point)
+            
+        default:
+            releaseCaptured()
+            hideHand()
+            dragState = .empty
+        }
+    }
+    
+    private func capture() {
+        guard let stickerView = dragState.sticker else {
+            return
+        }
+        
+        stickerView.move(to: dragState.stickerCenter, duration: 0.15)
+        workspace.bringSubviewToFront(stickerView)
+    }
+    
+    private func releaseCaptured() {
+        guard let stickerView = dragState.sticker else {
+            return
+        }
+        
+        stickerView.center = dragState.stickerCenter
+    }
+    
+    private func showHand(at point: CGPoint) {
+        moveHand(to: point)
+        handView.layer.scale(to: 0.9, duration: 0.2)
+    }
+    
+    private func hideHand() {
+        handView.isHidden = true
+        handView.layer.scale(to: 1.0, duration: 0)
+    }
+    
+    private func moveHand(to point: CGPoint) {
+        workspace.bringSubviewToFront(handView)
+        handView.isHidden = false
+        handView.frame = CGRect(
+            x: point.x - 75,
+            y: point.y,
+            width: 150,
+            height: 150
+        )
+    }
+    
+    private func stickerView(intersecting point: CGPoint, ignoring: UIView? = nil) -> UIImageView? {
+        stickerViews
+            .sorted { $0.center.distance(to: point) < $1.center.distance(to: point) }
+            .filter { $0 != ignoring }
+            .first { $0.frame.contains(point) }
     }
     
     private lazy var panRecognizer = UILongPressGestureRecognizer(
@@ -97,10 +175,18 @@ final class GameViewController: BaseViewController {
 
 private extension GameViewController.DragState {
     static var empty: GameViewController.DragState {
-        return GameViewController.DragState(sticker: nil, position: .zero)
+        return GameViewController.DragState(
+            sticker: nil,
+            position: .zero,
+            anchor: .zero
+        )
     }
     
     var isDraging: Bool {
         sticker != nil
+    }
+    
+    var stickerCenter: CGPoint {
+        position.translated(by: anchor)
     }
 }

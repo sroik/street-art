@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AC7AFAA425B87978008E5859 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7AFAA325B87978008E5859 /* Level.swift */; };
+		AC7AFAE825B97AAA008E5859 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7AFAE725B97AAA008E5859 /* UIView+Extensions.swift */; };
+		AC7AFAEA25B97F70008E5859 /* CALayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7AFAE925B97F70008E5859 /* CALayer+Extensions.swift */; };
 		ACE12B5125B87153001DA124 /* Alert in Frameworks */ = {isa = PBXBuildFile; productRef = ACE12B5025B87153001DA124 /* Alert */; };
 		ACE12B5225B87153001DA124 /* Alert in Embed Frameworks */ = {isa = PBXBuildFile; productRef = ACE12B5025B87153001DA124 /* Alert */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		ACE12B5425B87153001DA124 /* UtilsCore in Frameworks */ = {isa = PBXBuildFile; productRef = ACE12B5325B87153001DA124 /* UtilsCore */; };
@@ -45,6 +47,8 @@
 		3C8C8F0F4680085651B8E715 /* Pods-StreetArt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreetArt.release.xcconfig"; path = "Target Support Files/Pods-StreetArt/Pods-StreetArt.release.xcconfig"; sourceTree = "<group>"; };
 		3FD3F0CC3301E5AB1543FED6 /* Pods_StreetArt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreetArt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7AFAA325B87978008E5859 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		AC7AFAE725B97AAA008E5859 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		AC7AFAE925B97F70008E5859 /* CALayer+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extensions.swift"; sourceTree = "<group>"; };
 		ACE12B8525B8773D001DA124 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACE12B8725B87797001DA124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACE12B8B25B877B7001DA124 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/General.strings; sourceTree = "<group>"; };
@@ -103,6 +107,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AC7AFAE625B97AA1008E5859 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AC7AFAE925B97F70008E5859 /* CALayer+Extensions.swift */,
+				AC7AFAE725B97AAA008E5859 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		ACE12B8025B876E6001DA124 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +165,7 @@
 		ACE12B9F25B87801001DA124 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				AC7AFAE625B97AA1008E5859 /* Extensions */,
 				ACE12BA025B87809001DA124 /* Controller */,
 			);
 			path = Common;
@@ -350,9 +364,11 @@
 				ACE12BAA25B87916001DA124 /* GameViewController.swift in Sources */,
 				ACE12B9D25B877B7001DA124 /* Strings.swift in Sources */,
 				ACE12BA525B8780F001DA124 /* BaseViewController.swift in Sources */,
+				AC7AFAE825B97AAA008E5859 /* UIView+Extensions.swift in Sources */,
 				ACE12BA725B8780F001DA124 /* BaseNavigationController.swift in Sources */,
 				ACE12BA625B8780F001DA124 /* ContainerViewController.swift in Sources */,
 				ACE503CB25B86BED00FD516C /* AppDelegate.swift in Sources */,
+				AC7AFAEA25B97F70008E5859 /* CALayer+Extensions.swift in Sources */,
 				AC7AFAA425B87978008E5859 /* Level.swift in Sources */,
 				ACE12B9E25B877B7001DA124 /* Assets.swift in Sources */,
 			);
