@@ -52,7 +52,12 @@ final class GameViewController: BaseViewController {
         }
         
         panRecognizer.minimumPressDuration = 0
+        panRecognizer.delegate = self
         workspace.addGestureRecognizer(panRecognizer)
+        
+        tapRecognizer.numberOfTapsRequired = 2
+        tapRecognizer.delegate = self
+        workspace.addGestureRecognizer(tapRecognizer)
         
         handView.contentMode = .scaleAspectFit
         handView.isHidden = true
@@ -62,6 +67,10 @@ final class GameViewController: BaseViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         layoutStickers()
+    }
+    
+    private func win() {
+        delegate?.gameViewController(self, didFinish: level)
     }
     
     private func layoutStickers() {
@@ -82,6 +91,13 @@ final class GameViewController: BaseViewController {
                 width: stickerWidth,
                 height: stickerHeight
             )
+        }
+    }
+    
+    @objc private func onTap(_ recognizer: UITapGestureRecognizer) {
+        let point = recognizer.location(in: recognizer.view)
+        if stickerView(intersecting: point) == nil {
+            win()
         }
     }
     
@@ -165,12 +181,26 @@ final class GameViewController: BaseViewController {
         action: #selector(onPan(_:))
     )
     
+    private lazy var tapRecognizer = UITapGestureRecognizer(
+        target: self,
+        action: #selector(onTap(_:))
+    )
+    
     @Published private var dragState: DragState = .empty
     private let stickerViews: [UIImageView]
     private let mainImageView: UIImageView
     private let handView = UIImageView(image: A.hand3d.image)
     private let workspace = UIView()
     private let level: Level
+}
+
+extension GameViewController: UIGestureRecognizerDelegate {
+    func gestureRecognizer(
+        _ gestureRecognizer: UIGestureRecognizer,
+        shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer
+    ) -> Bool {
+        return true
+    }
 }
 
 private extension GameViewController.DragState {
